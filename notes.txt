@@ -3,16 +3,23 @@ This is where I'm going to keep my notes for the talk until the talk is finished
 Current outline:
 Talk outline: Building Accessible Lessons with R and Friends
 
-Big idea: The Carpentries is a community built on a core set of values that we are using to drive the design for our lesson infrastructure
+
+
+
+Huge mash of notes that may or may not make sense
+================================================================================
+
 
 Introduction
 -------------
 
-Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, 
-open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors 
-that promotes and models the importance of software and data in research. We collaboratively develop openly-available 
-lessons and deliver these lessons using evidence-based teaching practices. We focus on people conducting and supporting 
-research.
+Mission: The Carpentries builds global capacity in essential data and
+computational skills for conducting efficient, open, and reproducible research.
+We train and foster an active, inclusive, diverse community of learners and
+instructors that promotes and models the importance of software and data in
+research. We collaboratively develop openly-available lessons and deliver these
+lessons using evidence-based teaching practices. We focus on people conducting
+and supporting research.
 
 Our Values
 -----------
@@ -39,8 +46,9 @@ Core Value Driven Design
 
 We Champion People First
 
-> We believe that the individuals who make up our community are the most important part of our organisation 
-> and our strongest resource. **We strive to make decisions that lower barriers for individual participation.**
+> We believe that the individuals who make up our community are the most
+> important part of our organisation and our strongest resource. **We strive to
+> make decisions that lower barriers for individual participation.**
 
 ---List tasks of an academic's workday---
 
@@ -64,9 +72,11 @@ No new syntax to learn
 We Champion Community Collaboration
 
  - Carpentries Incubator
- - Instructor notes inline with the content allows a broader communication channel for instructors to communicate with one another
-   and to provide feedback to maintainers
- - renv lockfiles and pull request previews allow for inspection of results and avoids "this works on my machine" arguments.
+ - Instructor notes inline with the content allows a broader communication
+   channel for instructors to communicate with one another and to provide
+   feedback to maintainers
+ - renv lockfiles and pull request previews allow for inspection of results and
+   avoids "this works on my machine" arguments.
 
 We are Always Learning and Inclusive of All
 
@@ -77,8 +87,9 @@ We are Always Learning and Inclusive of All
  
 We Empower One Another
 
-> We help people build knowledge by creating a conducive environment for the exchange of skills, 
-perspectives and experiences that empower people and enable them to reach their potential.
+> We help people build knowledge by creating a conducive environment for the
+> exchange of skills, perspectives and experiences that empower people and
+> enable them to reach their potential.
 
 
 Testimonials
@@ -110,5 +121,15 @@ Evaluate talk content
 Discuss your visuals
 Plan adjustments to the talk content or slides
 PREPARATION:
-Be prepared to give a "rough draft" version of about 10 minutes of your talk. Be sure to include your opening hook. TOP TIPS: Use your outline, and open up your voice memos app on your phone. Stumble through the talk and then listen and refine. Script only if necessary (opening hook, closing, transitions).
-Bring your slide deck draft (or at least a storyboard) to share as you give your talk TOP TIPS: Watch this SLIDE VISUALS VIDEO to learn more about what makes a good slide deck and to help you prepare slides for this type of presentation. 
+Be prepared to give a "rough draft" version of about 10 minutes of your talk.
+Be sure to include your opening hook. 
+
+TOP TIPS: Use your outline, and open up
+your voice memos app on your phone. Stumble through the talk and then listen
+and refine. Script only if necessary (opening hook, closing, transitions).
+Bring your slide deck draft (or at least a storyboard) to share as you give
+your talk 
+
+TOP TIPS: Watch this SLIDE VISUALS VIDEO to learn more about what
+makes a good slide deck and to help you prepare slides for this type of
+presentation. 
