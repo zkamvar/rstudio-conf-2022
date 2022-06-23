@@ -1,0 +1,114 @@
+This is where I'm going to keep my notes for the talk until the talk is finished.
+
+Current outline:
+Talk outline: Building Accessible Lessons with R and Friends
+
+Big idea: The Carpentries is a community built on a core set of values that we are using to drive the design for our lesson infrastructure
+
+Introduction
+-------------
+
+Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, 
+open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors 
+that promotes and models the importance of software and data in research. We collaboratively develop openly-available 
+lessons and deliver these lessons using evidence-based teaching practices. We focus on people conducting and supporting 
+research.
+
+Our Values
+-----------
+  We...
+
+Act Openly
+Empower One Another
+Value All Contributions
+
+ We are...
+
+Always Learning
+Inclusive of All
+
+ We champion...
+
+People First
+Access for All
+Community Collaboration
+Strength Through Diversity
+
+Core Value Driven Design
+------------------------
+
+We Champion People First
+
+> We believe that the individuals who make up our community are the most important part of our organisation 
+> and our strongest resource. **We strive to make decisions that lower barriers for individual participation.**
+
+---List tasks of an academic's workday---
+
+using jekyll:
+
+jekyll serve
+
+"command Jekyll not found"
+
+bundle exec jekyll serve
+bundler: command not found: jekyll
+Install missing gem executables with `bundle install`
+
+Audience Survey about who has used Jekyll and who has uttered a curse word when using Jekyll
+
+Creating lessons is focussed on content, not tooling
+Workbench built using R
+> R's best asset is its community: https://twitter.com/yabellini/status/1523268802653212672
+No new syntax to learn
+
+We Champion Community Collaboration
+
+ - Carpentries Incubator
+ - Instructor notes inline with the content allows a broader communication channel for instructors to communicate with one another
+   and to provide feedback to maintainers
+ - renv lockfiles and pull request previews allow for inspection of results and avoids "this works on my machine" arguments.
+
+We are Always Learning and Inclusive of All
+
+ - We add sensible checks to make sure lessons are accessible
+    - check for link text
+    - check for alt text
+ - Workbench can be run from any R instance, including RStudio Cloud
+ 
+We Empower One Another
+
+> We help people build knowledge by creating a conducive environment for the exchange of skills, 
+perspectives and experiences that empower people and enable them to reach their potential.
+
+
+Testimonials
+---------------
+
+ - Saba
+ - Toby
+ - Athanasia
+ - Sarah
+
+Conclusion
+---------------
+
+Join us
+
+
+Homework for talk:
+7 to 10 minutes of the talk 
+Must include opening
+Point to thing you want feedback on
+
+
+
+Session Three Information:
+
+OBJECTIVE:
+
+Evaluate talk content 
+Discuss your visuals
+Plan adjustments to the talk content or slides
+PREPARATION:
+Be prepared to give a "rough draft" version of about 10 minutes of your talk. Be sure to include your opening hook. TOP TIPS: Use your outline, and open up your voice memos app on your phone. Stumble through the talk and then listen and refine. Script only if necessary (opening hook, closing, transitions).
+Bring your slide deck draft (or at least a storyboard) to share as you give your talk TOP TIPS: Watch this SLIDE VISUALS VIDEO to learn more about what makes a good slide deck and to help you prepare slides for this type of presentation. 
