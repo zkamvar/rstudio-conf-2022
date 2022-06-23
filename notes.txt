@@ -3,6 +3,111 @@ This is where I'm going to keep my notes for the talk until the talk is finished
 Current outline:
 Talk outline: Building Accessible Lessons with R and Friends
 
+Notes from my own session
+-------------------------
+
+In order to understand my talk, you have to understand The Carpentries
+
+We are a volunteer community that teach data and coding skills to researchers
+worldwide.
+
+We are community driven.
+
+Building our lessons is very difficult.
+
+Give vignette a day in the life of one of our maintainers
+
+Mindset of carpentries maintainer
+
+ - associate professor
+    - two classes with tests graded
+    - grants
+    - grad students
+    - tenure
+    - children at home
+ - Go to edit it and then something doesn't work and you don't know what broke
+   when all you wanted to do was to fix a typo or add a plot. 
+ - Analogy: windows update
+
+Connection: what we have done is that we've taking this workflow and externalised
+it and rewritten it in R and separated the tools from the content so when you are 
+editing a markdown file you only have to worry about the content and not the tools
+
+There are tools for accessibility and the defaults are accessible
+
+Testimonials from people who have used the workbench and how it has improved their
+workflow.
+
+Why am I telling you about this? The Carpentries is a really welcoming community.
+If you want to, you can be part of the community. If you want to develop a lesson, 
+we have The Carpentries Incubator where you can find collaborators and people who
+want to teach the lesson. 
+
+You can get certified to teach carpentries lessons with evidence based teaching practises.
+
+End of talk.
+
+
+Queston: There are two sidebyside goals of the talk at the moment:
+
+1. Join our community
+2. Sharing the inforamtion about how you made the lessons more accessible
+
+What's the priority between these two? 
+
+Join the carpentries is priority.
+
+We can get both. There was a moment that we flashed by: what are our values?
+
+We are an organisation that values people but we don't want the tools getting
+the way for people to express who they are and what they want to contribute to
+the Community.
+
+You could take this inforamtion as an example of how you are living these values
+
+The values are the parent and you will walk through how the workbench embodies
+these values. 
+
+E.G. Inclusive of all: we don't exclude people just because they can't install Jekyll
+
+
+Youll take the story you were going to share, but you are twisting it to highlight
+those values. So what part of the story is best to demonstrate you put people first
+and what part of that story highlights accessibility for all?
+
+YOu can lead up to it and say "I want to tell you how we're living those values 
+in one very specific case which are these lessons" and you can then still set up
+the problem with these lessons that everybody's encountered so that part of the
+talk remains. 
+
+This way, the audience knows what the carpentries is all about so that when you get
+to the end, you can say "join us" and it doesn't feel like, "oh! That's what you 
+wanted me to listen for?" We knew the whole time. 
+
+
+If the talk is mostly about joining the carpentries: what do people get out of
+being in the carpentries?
+
+Mildly familiar with The Carpentries and thinking from a personal standpoint,
+I'd love to see this talk because it will give me the push to take the dive to
+become an instructor. It would be super interesting to hear the fact that you
+can get a certification that's recognised globally. It would be good to give
+the benefits of it for people who don't know about the carpentries. 
+
+Hook: who we are, why we exist, you can be part of a good community
+We are a great community because we have these values and we live by them.
+
+This is one of the _many_ ways we live by our values.
+
+You can then come home by giving testimonials of why people join our community
+
+Hooks: 
+
+ - why fight with Jekyll?
+ - utility of the carpentries as a whole: data science was not a thing and
+   there is no certification. 
+
+maybe start in the world of community and start with how young this field is. 
 
 
 
