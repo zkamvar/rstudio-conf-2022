@@ -1,10 +1,78 @@
 This is where I'm going to keep my notes for the talk until the talk is finished.
 
 Current outline:
-Talk outline: Building Accessible Lessons with R and Friends
+
+- Purpose: I'm here to show you two things: how we transformed our lessons to a more modern and accessible format using R and how you can use The Carpentries Workbench to build accessible lessons with R and friends, but in order to do that, you need to know what The Carpentries is and before I start, I'm goint to tell you a little story about myself 
+- Hook:
+  - I taught my first workshop in R ten years ago
+  - I knew nothing about inclusive teaching, live coding practices, or effective lesson development
+  - Build website using RMarkdown, forced my collaborators to start using Git, fixed a lot of merge conflicts
+  - We ran the workshop successfully at two conferences, but something was missing: we had no clue whether or not our workshop participants actually learned anything.
+  - Rebuilding the website was always a "close your eyes and hope it works" kinda process
+  - If I had known how to join The Carpentries back then, the lesson would have looked much different and we would make sure our attendees got something out of the workshop.
+- The Carpentries
+  - Trains people in SW dev and data science skills for effective work and carreer dev
+  - Builds community and local capacity for teaching and learning these skills and perspectives.
+  - Community is important: our trained instructors are volunteers.
+  - Our lessons and everything we do is open and free to access and remix online
+  - The community has delivered more than 3500 workshops to tens of thousands of learners across the globe, with growing communities in Africa, The Middle East, Latin America, and East Asia as well.- This is not an accident! In 2019, Kari L. Jordan, Amy Hodge, Tracy Teal, and Sarah Rono synthesized from our community a set of core values that we hold and that drive our work.
+- In 2018 we did a survey of maintainers who responded that overall, the process of building lessons was broken. Responding to this survey, we rebuilt our lessons infrastructure from the ground up sing our core-value driven design
+
+- We Champion People First
+
+  - lesson wrapped around a blog
+  - Imagine that you are an associate professor: classes, papers, grants, grad students, talks, etc.
+      - part of your service is maintaining a lesson for the carpentries
+      - jekyll serve becomes bundle install; bundle exec jekyll serve
+  - Who has used Jekyll?
+  - Who has uttered a curse word because of Jekyll?
+  - People First solution: 
+    - content for content; tools separate
+    - Use R
+      - R's best asset is its community: https://twitter.com/yabellini/status/1523268802653212672
+
+
+- We Champion Community Collaboration
+
+ - Carpentries Incubator
+ - Instructor notes inline with the content allows a broader communication
+   channel for instructors to communicate with one another and to provide
+   feedback to maintainers
+ - renv lockfiles and pull request previews allow for inspection of results and
+   avoids "this works on my machine" arguments.
+
+- Always Learning and Inclusive of All
+
+  - Reminders built in to The Workbench to include alt text and descriptive links.
+  - Multiple points of entry including RStudio cloud
+
+- We Empower One Another
+
+ - Community lessons from The Carpentries Incubator
+   - Path to peer review in the lab
+   - collaborative lesson development
+ - Model for Curriculum Maintenance
+   - Curriculum Advisors <-> Maintainers <-> Instructors
+   - Externalising styling simplifies the equation
+
+- Testimonials
+ - Saba
+ - Toby
+ - Athanasia
+ - Sarah
+
+- Get Involved!
+  - Become an Instructor
+  - Become a Maintainer
+  - Host a Workshop!
+  - Teach, create, contribute to, or review a lesson!
+
+
+Talk name: Building Accessible Lessons with R and Friends
+
 
 Notes from my own session
--------------------------
+================================================================================
 
 In order to understand my talk, you have to understand The Carpentries
 
@@ -69,7 +137,6 @@ The values are the parent and you will walk through how the workbench embodies
 these values. 
 
 E.G. Inclusive of all: we don't exclude people just because they can't install Jekyll
-
 
 Youll take the story you were going to share, but you are twisting it to highlight
 those values. So what part of the story is best to demonstrate you put people first
