@@ -2,14 +2,25 @@ This is where I'm going to keep my notes for the talk until the talk is finished
 
 Current outline:
 
-- Purpose: I'm here to show you two things: how we transformed our lessons to a more modern and accessible format using R and how you can use The Carpentries Workbench to build accessible lessons with R and friends, but in order to do that, you need to know what The Carpentries is and before I start, I'm goint to tell you a little story about myself 
+- Purpose: I'm here to show you two things: how we transformed our lessons to a
+  more modern and accessible format using R and how you can use The Carpentries
+  Workbench to build accessible lessons with R and friends, but in order to do
+  that, you need to know what The Carpentries is and before I start, I'm goint
+  to tell you a little story about myself 
 - Hook:
   - I taught my first workshop in R ten years ago
-  - I knew nothing about inclusive teaching, live coding practices, or effective lesson development
+  - I knew nothing about inclusive teaching, live coding practices, or
+    effective lesson development
   - Build website using RMarkdown, forced my collaborators to start using Git, fixed a lot of merge conflicts
-  - We ran the workshop successfully at two conferences, but something was missing: we had no clue whether or not our workshop participants actually learned anything.
+  - We ran the workshop successfully at two conferences, but something was
+    missing: we had no clue whether or not our workshop participants actually
+    learned anything.
   - Rebuilding the website was always a "close your eyes and hope it works" kinda process
-  - If I had known how to join The Carpentries back then, the lesson would have looked much different and we would make sure our attendees got something out of the workshop.
+  - If I had a way to get support I needed, I could have succeeded. I know know
+    the carpentries is that place.
+    ~~known how to join The Carpentries back then, the lesson would have
+    looked much different and we would make sure our attendees got something
+    out of the workshop.~~
 - The Carpentries
   - works to help institutions and individuals spread skills for data analysis,
     computational thinking, and research software development through building
@@ -42,6 +53,8 @@ People First
 Access for All
 Community Collaboration
 Strength Through Diversity
+
+- Maintainer Survey
 
 - We Champion People First
 
