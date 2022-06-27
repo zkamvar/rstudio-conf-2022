@@ -11,12 +11,37 @@ Current outline:
   - Rebuilding the website was always a "close your eyes and hope it works" kinda process
   - If I had known how to join The Carpentries back then, the lesson would have looked much different and we would make sure our attendees got something out of the workshop.
 - The Carpentries
-  - Trains people in SW dev and data science skills for effective work and carreer dev
-  - Builds community and local capacity for teaching and learning these skills and perspectives.
+  - works to help institutions and individuals spread skills for data analysis,
+    computational thinking, and research software development through building
+    local and global communities of practice.
   - Community is important: our trained instructors are volunteers.
   - Our lessons and everything we do is open and free to access and remix online
-  - The community has delivered more than 3500 workshops to tens of thousands of learners across the globe, with growing communities in Africa, The Middle East, Latin America, and East Asia as well.- This is not an accident! In 2019, Kari L. Jordan, Amy Hodge, Tracy Teal, and Sarah Rono synthesized from our community a set of core values that we hold and that drive our work.
-- In 2018 we did a survey of maintainers who responded that overall, the process of building lessons was broken. Responding to this survey, we rebuilt our lessons infrastructure from the ground up sing our core-value driven design
+  - The community has delivered more than 3500 workshops to tens of thousands
+    of learners across the globe, with growing communities in Africa, The
+    Middle East, Latin America, and East Asia as well---This is not an
+    accident! In 2019, Kari L. Jordan, Amy Hodge, Tracy Teal, and Sarah Rono
+    synthesized from our community a set of core values that we hold and that
+    drive our work.
+
+- Our Values
+
+  We...
+
+Act Openly
+Empower One Another
+Value All Contributions
+
+ We are...
+
+Always Learning
+Inclusive of All
+
+ We champion...
+
+People First
+Access for All
+Community Collaboration
+Strength Through Diversity
 
 - We Champion People First
 
@@ -44,6 +69,7 @@ Current outline:
 - Always Learning and Inclusive of All
 
   - Reminders built in to The Workbench to include alt text and descriptive links.
+  - Modular design allows future integration of different tooling.
   - Multiple points of entry including RStudio cloud
 
 - We Empower One Another
@@ -62,10 +88,10 @@ Current outline:
  - Sarah
 
 - Get Involved!
-  - Become an Instructor
-  - Become a Maintainer
-  - Host a Workshop!
-  - Teach, create, contribute to, or review a lesson!
+  - Become an Instructor (https://carpentries.org/become-instructor/)
+  - Become a Maintainer (training opens next year)
+  - Become a Member Organisation (https://carpentries.org/membership/)
+  - Teach, create, contribute to, or review a lesson! (https://carpentries.org/help-wanted-issues/)
 
 
 Talk name: Building Accessible Lessons with R and Friends
