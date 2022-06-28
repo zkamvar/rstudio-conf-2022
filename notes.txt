@@ -64,7 +64,19 @@ Current outline:
   - Over the course of two years, it became clear that the system was not easy
     to use... we needed to reevaluate. 
   - Solution: Carpentries Workbench
+    - Template + Three packages based on the framework of pkgdown
+      - sandpaper: orchestration 
+      - pegboard: pre-flight validation
+      - varnish: styling and CSS
+      - available on the carpentries r-universe
   - Core-Values Driven Design
+    - People first
+    - Always Learning
+    - Inclusive of All
+    - Community Collaboration
+    - Empower One Another
+
+- List of values we will discuss
 
 - We Champion People First
 
@@ -74,10 +86,6 @@ Current outline:
     - content for content; tools and styling separate
     - Use R
       - R's best asset is its community: https://twitter.com/yabellini/status/1523268802653212672
-    - Three packages based on the framework of pkgdown
-      - sandpaper: orchestration 
-      - pegboard: pre-flight validation
-      - varnish: styling and CSS
 
 - Always Learning and Inclusive of All
 
