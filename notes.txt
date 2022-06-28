@@ -76,8 +76,6 @@ Current outline:
     - Community Collaboration
     - Empower One Another
 
-- List of values we will discuss
-
 - We Champion People First
 
   - lesson wrapped around a blog: great for one or two lessons; a nightmare for
