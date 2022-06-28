@@ -3,87 +3,99 @@ This is where I'm going to keep my notes for the talk until the talk is finished
 Current outline:
 
 - Purpose: I'm here to show you two things: how we transformed our lessons to a
-  more modern and accessible format using R and how you can use The Carpentries
-  Workbench to build accessible lessons with R and friends, but in order to do
-  that, you need to know what The Carpentries is and before I start, I'm goint
-  to tell you a little story about myself 
+  more modern and accessible format using R and how you can use our
+  infrastructure to build accessible lessons with R and friends, but in order
+  to do that, you need to know what The Carpentries is and before I start, I'm
+  goint to tell you a little story about myself 
+
 - Hook:
-  - I taught my first workshop in R ten years ago
+  - I taught my first workshop in R several years ago
   - I knew nothing about inclusive teaching, live coding practices, or
     effective lesson development
   - Build website using RMarkdown, forced my collaborators to start using Git, fixed a lot of merge conflicts
   - We ran the workshop successfully at two conferences, but something was
     missing: we had no clue whether or not our workshop participants actually
-    learned anything.
+    learned anything. 
   - Rebuilding the website was always a "close your eyes and hope it works" kinda process
-  - If I had a way to get support I needed, I could have succeeded. I know know
-    the carpentries is that place.
-    ~~known how to join The Carpentries back then, the lesson would have
-    looked much different and we would make sure our attendees got something
-    out of the workshop.~~
+  - If I had a way to get support I needed, I could have succeeded in
+    understanding how to develop lesson content with formative assessment that
+    would give me a better idea of what people learned from the workshop. I
+    know know the carpentries is that place.
+
 - The Carpentries
-  - works to help institutions and individuals spread skills for data analysis,
-    computational thinking, and research software development through building
-    local and global communities of practice.
-  - Community is important: our trained instructors are volunteers.
-  - Our lessons and everything we do is open and free to access and remix online
-  - The community has delivered more than 3500 workshops to tens of thousands
-    of learners across the globe, with growing communities in Africa, The
-    Middle East, Latin America, and East Asia as well---This is not an
-    accident! In 2019, Kari L. Jordan, Amy Hodge, Tracy Teal, and Sarah Rono
-    synthesized from our community a set of core values that we hold and that
-    drive our work.
+  - Mission (who else)
+    - works to help institutions and individuals spread data science skills
+      through building local and global communities of practice.
+  - Identity (who)
+    - community of volunteers trained in inclusive and effective teaching principles.
+      Includes lesson maintainers, instructors, and instructor trainers.
+  - Values (Why)
+      We...
 
-- Our Values
+    Act Openly
+    Empower One Another
+    Value All Contributions
 
-  We...
+     We are...
 
-Act Openly
-Empower One Another
-Value All Contributions
+    Always Learning
+    Inclusive of All
 
- We are...
+     We champion...
 
-Always Learning
-Inclusive of All
+    People First
+    Access for All
+    Community Collaboration
+    Strength Through Diversity
 
- We champion...
+  - Capabilities (how)
+    - Over 3500 workshops to tens of thousands of learners across the globe with
+      growing communities in Africa, The Middle East, Latin America, and East
+      Asia as well.
+    - Open-source and open-licensed lesson materials freely available on GitHub
 
-People First
-Access for All
-Community Collaboration
-Strength Through Diversity
-
-- Maintainer Survey
+- Problem Statement
+  - Lessons were built with Jekyll because it was what GitHub used, so there was
+    no need for contributors to render the HTML
+  - Have you ever worked with Jekyll? 
+  - Have you ever uttered a curse word while using Jekyll?
+  - Have you ever had a fear of updating your blog because the template you
+    used no longer works? 
+  - Over the course of two years, it became clear that the system was not easy
+    to use... we needed to reevaluate. 
+  - Solution: Carpentries Workbench
+  - Core-Values Driven Design
 
 - We Champion People First
 
-  - lesson wrapped around a blog
-  - Imagine that you are an associate professor: classes, papers, grants, grad students, talks, etc.
-      - part of your service is maintaining a lesson for the carpentries
-      - jekyll serve becomes bundle install; bundle exec jekyll serve
-  - Who has used Jekyll?
-  - Who has uttered a curse word because of Jekyll?
+  - lesson wrapped around a blog: great for one or two lessons; a nightmare for
+    > 100. 
   - People First solution: 
-    - content for content; tools separate
+    - content for content; tools and styling separate
     - Use R
       - R's best asset is its community: https://twitter.com/yabellini/status/1523268802653212672
+    - Three packages based on the framework of pkgdown
+      - sandpaper: orchestration 
+      - pegboard: pre-flight validation
+      - varnish: styling and CSS
 
+- Always Learning and Inclusive of All
+
+  - people
+    - Reminders built in to The Workbench to include alt text and descriptive links
+    - Multiple points of entry including RStudio cloud
+    - not excluding anyone because they can not install Jekyll, Make, or Python
+  - infrastructure
+    - Elephant in the room: we are not using quarto... yet
+    - Modular design allows future integration of different tooling.
 
 - We Champion Community Collaboration
 
- - Carpentries Incubator
  - Instructor notes inline with the content allows a broader communication
    channel for instructors to communicate with one another and to provide
    feedback to maintainers
  - renv lockfiles and pull request previews allow for inspection of results and
    avoids "this works on my machine" arguments.
-
-- Always Learning and Inclusive of All
-
-  - Reminders built in to The Workbench to include alt text and descriptive links.
-  - Modular design allows future integration of different tooling.
-  - Multiple points of entry including RStudio cloud
 
 - We Empower One Another
 
