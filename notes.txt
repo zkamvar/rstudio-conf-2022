@@ -2,25 +2,29 @@ This is where I'm going to keep my notes for the talk until the talk is finished
 
 Current outline:
 
-- Purpose: I'm here to show you two things: how we transformed our lessons to a
-  more modern and accessible format using R and how you can use our
-  infrastructure to build accessible lessons with R and friends, but in order
-  to do that, you need to know what The Carpentries is and before I start, I'm
-  goint to tell you a little story about myself 
+- Purpose: I'm here to show you two things: how you can use our infrastructure
+  to build accessible lessons with R and friends and how we used our core
+  values to transform our lessons to a more modern and accessible format using
+  R, but in order to do that, you need to know what The Carpentries is and
+  before I start, I'm goint to tell you a little story about myself 
 
 - Hook:
   - I taught my first workshop in R several years ago
   - I knew nothing about inclusive teaching, live coding practices, or
     effective lesson development
-  - Build website using RMarkdown, forced my collaborators to start using Git, fixed a lot of merge conflicts
+  - Build website using RMarkdown, forced my collaborators to start using Git,
+    fixed a lot of merge conflicts
+  - Rebuilding the website was always a "close your eyes and hope it works"
+    kinda process
   - We ran the workshop successfully at two conferences, but something was
     missing: we had no clue whether or not our workshop participants actually
     learned anything. 
-  - Rebuilding the website was always a "close your eyes and hope it works" kinda process
-  - If I had a way to get support I needed, I could have succeeded in
-    understanding how to develop lesson content with formative assessment that
-    would give me a better idea of what people learned from the workshop. I
-    know know the carpentries is that place.
+  - Here's the thing, my advisor had not taught for several years befor this, 
+    If I had a way to get support I needed, such as a template for a lesson that
+    would guide me in narrative elements and formative assessment, I could have 
+    succeeded in understanding what people learned from the workshop. 
+    I know now that the carpentries is a community that provides that support
+    and gives people a safe space to improve their teaching.
 
 - The Carpentries
   - Mission (who else)
@@ -52,7 +56,12 @@ Current outline:
     - Over 3500 workshops to tens of thousands of learners across the globe with
       growing communities in Africa, The Middle East, Latin America, and East
       Asia as well.
-    - Open-source and open-licensed lesson materials freely available on GitHub
+    - Our instructors never teach alone: If you are starting out, you are always
+      paired with an experienced instructor and any number of helpers.
+    - You always have an opportunity to teach thanks to soon-to-be Dr. SherAaron
+      Hurt, Director of Workshops. 
+    - Continued learning through open-source and open-licensed lesson materials
+      freely available on GitHub
 
 - Problem Statement
   - Lessons were built with Jekyll because it was what GitHub used, so there was
