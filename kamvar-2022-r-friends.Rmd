@@ -1,0 +1,70 @@
+---
+title: "Building Accessible Lessons with R and Friends"
+subtitle: "Say hello to The Carpentries Workbench"
+author: "Zhian N. Kamvar"
+institute: "The Carpentries"
+date: "2022-07-28 14:10 EDT"
+output:
+  xaringan::moon_reader:
+    css: [znk.css]
+    chakra: libs/remark-latest.min.js
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+background-color: var(--cp-wand)
+background-image: url(https://carpentries.org/assets/img/TheCarpentries.svg)
+background-size: 75%
+background-position: center
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+# comment
+```
+
+
+???
+
+The Carpentries is a global organization of volunteers who teach
+foundational data and coding skills to researchers worldwide. 
+
+*ALT: The Carpentries Logo*
+
+---
+
+background-color: var(--cp-wand)
+class: center,middle
+
+.pull-left[
+.large-brain[.c-blue[&emsp;**We...**]]  
+.brain[
+Act Openly     
+Empower One Another    
+.c-red[**Value All Contributions**]
+]]
+
+.pull-right[
+.large-brain[.c-blue[&emsp;**We are...**]]    
+.brain[
+Always Learning    
+.c-red[**Inclusive of All**]    
+]]
+
+.center[
+.large-brain[.c-blue[&emsp;**We champion...**]]   
+.brain[
+.c-red[**People First**]    
+Access for All    
+Community Collaboration    
+Strength Through Diversity
+]]
+
+???
+
+What makes us stand out is not the fact that we use evidence-based practices in
+teaching, it's that we align all of our decisions with our core values: we put
+people first and we value all contributions.
