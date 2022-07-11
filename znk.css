@@ -23,3 +23,62 @@
   --cp-dawn: rgb(255, 214, 216);
   --cp-wand: rgb(255, 231, 168);
 }
+
+a {
+  color: var(--cp-general);
+}
+.grey {
+  color: var(--cp-general);
+}
+.red {
+  color: var(--cp-fire);
+}
+
+.credit {
+  color: (--cp-black);
+  display: inline-block;
+  background-color: (--cp-buttercup);
+  padding: 7px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.c-blue {
+  color: var(--cp-midnight);
+}
+
+.c-red {
+  color: var(--cp-fire);
+}
+
+.c-orange {
+  color: var(--cp-golden);
+}
+
+.c-light-blue {
+  color: var(--cp-general-light);
+}
+
+.smol-brain {
+  font-size: 24px;
+}
+
+.brain {
+  font-size: 36px;
+}
+
+.brain a {
+  color: var(--cp-black);
+}
+
+.large-brain {
+  font-size: 48px;
+}
+
+.large-brain a {
+  color: var(--cp-black);
+}
+
+.galaxy-brain {
+  font-size: 64px;
+}
