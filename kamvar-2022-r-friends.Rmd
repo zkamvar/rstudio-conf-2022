@@ -37,15 +37,16 @@ foundational data and coding skills to researchers worldwide.
 ---
 
 background-color: var(--cp-wand)
-class: center,middle
+class:center,middle
 
 .pull-left[
 .large-brain[.c-blue[&emsp;**We...**]]  
 .brain[
-Act Openly     
-Empower One Another    
-.c-red[**Value All Contributions**]
-]]
+  Act Openly     
+  Empower One Another    
+  .c-red[**Value All Contributions**]
+]
+]
 
 .pull-right[
 .large-brain[.c-blue[&emsp;**We are...**]]    

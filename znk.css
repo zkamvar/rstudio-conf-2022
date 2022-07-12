@@ -24,6 +24,7 @@
   --cp-wand: rgb(255, 231, 168);
 }
 
+
 a {
   color: var(--cp-general);
 }
@@ -82,3 +83,20 @@ a {
 .galaxy-brain {
   font-size: 64px;
 }
+
+/*
+https://bookdown.org/yihui/rmarkdown/xaringan-format.html#slides-and-properties
+*/
+
+.inverse {
+  background-color: var(--cp-black);
+  color: var(--cp-buttercup);
+}
+
+.title-slide {
+  background-image: url("img/carpentries-logo.svg");
+  background-size: 10%;
+  background-position: 5% 90%;
+}
+
+
