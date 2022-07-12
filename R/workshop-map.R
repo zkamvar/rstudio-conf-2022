@@ -169,36 +169,28 @@ workshops_map <- function(wksp_data, outfile = "./plot_workshops_map.svg") {
   map <- ggplot() +
     geom_map(aes(fill = n, x = long, y = lat, map_id = region),
       data = world, map = world,
-      color = "white", size = .2
+      color = "#383838", size = .2
     ) +
-    scale_fill_viridis_c(
-      na.value = "gray80",
+    scale_fill_gradient(
+      low = "#E3E6FC",
+      high = "#081457",
+      na.value = "#FFF7F1",
       breaks = c(1, 10, 100, 500),
       trans = "log", name = "Number of Workshops"
-    ) +
-    scale_size(name = "Number of workshops", range = c(1.5, 9)) +
-    geom_point(
-      data = wksp_map_points,
-      aes(x = longitude, y = latitude, size = n_loc),
-      fill      = "#eeeeee",
-      color = "#c95f0d",
-      pch = 21,
-      stroke = 1,
-      alpha = .85,
-      inherit.aes = FALSE
     ) +
     coord_map(projection = "albers", parameters = c(0, 0), xlim = c(-180, 180)) +
     theme_minimal() +
     theme(
-      panel.background = element_rect(fill = "#f1feff")
+      panel.background = element_rect(fill = "#E6F1FF"),
+      panel.grid.major = element_blank()
     ) +
-    theme(legend.position = "bottom") +
+    theme(legend.position = "none") +
     labs(
       x = "", y = ""
     ) +
     scale_color_identity(guide = "none")
 
-  svglite::svglite(file = outfile, width = 1600 / 72, height = 900 / 72)
+  svglite::svglite(file = outfile, width = 800 / 72, height = 450 / 72)
   print(map)
   dev.off()
 
