@@ -208,7 +208,7 @@ wksp <- read_csv("https://redash.carpentries.org/api/queries/125/results.csv?api
 
 message("working directory: ", getwd())
 
-workshops_through_time(wksp)
+# workshops_through_time(wksp)
 
-workshops_by_year(wksp)
-workshops_map(wksp)
+# workshops_by_year(wksp)
+workshops_map(wksp, outfile = "img/map.svg")
