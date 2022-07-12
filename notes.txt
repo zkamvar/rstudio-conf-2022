@@ -80,9 +80,8 @@ Current outline:
       - available on the carpentries r-universe
   - Core-Values Driven Design
     - People first
-    - Always Learning
-    - Inclusive of All
     - Community Collaboration
+    - Always Learning & Inclusive of All
     - Empower One Another
 
 - We Champion People First
