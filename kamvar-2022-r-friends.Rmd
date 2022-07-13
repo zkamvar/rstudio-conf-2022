@@ -24,20 +24,27 @@ class: center, middle
 ---
 
 
-background-color: var(--cp-buttercup)
-background-image: url("img/carpentries-full-logo.png")
-background-size: 200%;
+background-color: var(--cp-general-light)
+background-image: url("img/carpentries-full-logo.svg")
+background-size: 75% 
+background-position: 50% 33%
 class: center, middle
 
-# The Carpentries
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 # comment
 ```
 
-.brain[
-Spreading data science skills to researchers around the globe
+.cp-fire.brain[
+<br>
+<br>
+<br>
+<br>
+<br>
+
+**Spreading data science skills     
+to researchers around the globe**
 ]
 ???
 

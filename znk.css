@@ -38,7 +38,7 @@
 }
 /* lato-italic - latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Lato Italic';
   font-style: italic;
   font-weight: 400;
   src: url('fonts/lato-v23-latin-italic.eot'); /* IE9 Compat Modes */
@@ -51,7 +51,7 @@
 }
 /* lato-900 - latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Lato Heavy';
   font-style: normal;
   font-weight: 900;
   src: url('fonts/lato-v23-latin-900.eot'); /* IE9 Compat Modes */
@@ -64,7 +64,7 @@
 }
 /* lato-900italic - latin */
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Lato Heavy Italic';
   font-style: italic;
   font-weight: 900;
   src: url('fonts/lato-v23-latin-900italic.eot'); /* IE9 Compat Modes */
@@ -81,8 +81,8 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: "lato-900";
-  font-weight: bold;
+  font-family: "Lato";
+  font-weight: 900;
 }
 
 a {
