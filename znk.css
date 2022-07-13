@@ -76,6 +76,15 @@
        url('fonts/lato-v23-latin-900italic.svg#Lato') format('svg'); /* Legacy iOS */
 }
 
+body {
+  font-family: "Lato";
+}
+
+h1, h2, h3 {
+  font-family: "lato-900";
+  font-weight: bold;
+}
+
 a {
   color: var(--cp-general);
 }
