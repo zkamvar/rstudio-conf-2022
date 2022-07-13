@@ -85,6 +85,10 @@ h1, h2, h3 {
   font-weight: 900;
 }
 
+.author-img img {
+  clip-path: circle();
+}
+
 a {
   color: var(--cp-general);
 }
@@ -185,3 +189,24 @@ https://bookdown.org/yihui/rmarkdown/xaringan-format.html#slides-and-properties
 .cp-wand { color: rgb(255, 214, 216); }
 .cp-dawn { color: rgb(255, 231, 168); }
 
+
+/* https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+blockquote {
+  background: var(--cp-sky);
+  border-left: 10px solid var(--cp-pond);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: var(--cp-pond);
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  font-style: italic;
+}

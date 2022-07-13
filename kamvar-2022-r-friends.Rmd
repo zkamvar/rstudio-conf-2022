@@ -242,10 +242,62 @@ always learning & access for all
 
 
 ---
-background-color: var(--cp-buttercup)
-class: center
+background-color: var(--cp-sky)
+class: center,middle
 
-# Testimonials
+# Don't Take It From Me!
+
+---
+background-color: var(--cp-buttercup)
+background-image: url("img/saba.png")
+background-position: 5% 50%
+background-size: 50%
+class: center, middle
+
+
+.pull-right[
+## Saba Ferdous
+.brain[Associate Lecturer, UCL;]
+.brain[Learn To Discover]
+.cp-fire.brain[
+> It was **very trivial and efficient** to \[write custom lessons\] in The Carpentries Workbench
+]
+<https://learntodiscover.github.io/Basic_Python>
+]
+
+---
+background-color: var(--cp-buttercup)
+background-image: url("img/toby.png")
+background-position: 5% 50%
+background-size: 50%
+class: center, middle
+
+
+.pull-right[
+## Toby Hodges
+.brain[Curriculum Lead    
+The Carpentries]
+.cp-fire.brain[
+> **The Workbench has made it easier** for people to write, maintain, 
+and teach lessons, in many different ways---sometimes quite profoundly
+]
+]
+
+---
+background-color: var(--cp-buttercup)
+background-image: url("img/francois.png")
+background-position: 5% 50%
+background-size: 50%
+class: center, middle
+
+
+.pull-right[
+## Fraçois Michonneau
+.brain[Best Boss Ever]
+.cp-fire.brain[
+> You only have to focus on writing the content and **The Workbench takes care of the rest**.
+]
+]
 
 ---
 background-color: var(--cp-buttercup)
