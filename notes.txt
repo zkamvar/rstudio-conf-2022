@@ -2,6 +2,7 @@ This is where I'm going to keep my notes for the talk until the talk is finished
 
 Current outline:
 
+- Hello, I'm Zhian Kamvar and I work on Lesson Infrastructure at The Carpentries
 - Purpose: I'm here to show you two things: how you can use our infrastructure
   to build accessible lessons with R and friends and how we used our core
   values to transform our lessons to a more modern and accessible format using
@@ -9,9 +10,11 @@ Current outline:
   before I start, I'm goint to tell you a little story about myself
 
 - Hook:
-  - I taught my first workshop in R several years ago
-  - I knew nothing about inclusive teaching, live coding practices, or
-    effective lesson development
+  - I taught my first workshop in R several years ago, teaching how to do population
+    genetic analysis in R for plant pathologists.
+  - I knew a lot about popgen and plant pathology, but I knew next to nothing
+    about inclusive teaching, live coding practices, or effective lesson
+    development
   - Build website using RMarkdown, forced my collaborators to start using Git,
     fixed a lot of merge conflicts
   - Rebuilding the website was always a "close your eyes and hope it works"
@@ -129,6 +132,7 @@ Current outline:
  - Sarah
 
 - Get Involved!
+  - Sure you can build a lesson with R, but think about the friends you'll make along the way!
   - Become an Instructor (https://carpentries.org/become-instructor/)
   - Become a Maintainer (training opens next year)
   - Become a Member Organisation (https://carpentries.org/membership/)

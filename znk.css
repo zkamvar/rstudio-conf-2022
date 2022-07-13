@@ -20,8 +20,8 @@
   --cp-fog: rgb(230, 234, 240);
   --cp-mist: rgb(230, 238, 248);
   --cp-sunrise: rgb(252, 117, 126);
-  --cp-dawn: rgb(255, 214, 216);
-  --cp-wand: rgb(255, 231, 168);
+  --cp-wand: rgb(255, 214, 216);
+  --cp-dawn: rgb(255, 231, 168);
 }
 /* lato-regular - latin */
 @font-face {
@@ -133,6 +133,8 @@ a {
 }
 
 .large-brain {
+  font-family: "Lato";
+  font-weight: 900;
   font-size: 48px;
 }
 
@@ -159,4 +161,27 @@ https://bookdown.org/yihui/rmarkdown/xaringan-format.html#slides-and-properties
   background-position: 5% 90%;
 }
 
+
+.cp-black { color: rgb(56, 56, 56); }
+.cp-midnight { color: rgb(0, 20, 131,); }
+.cp-fire { color: rgb(255, 73, 85); }
+.cp-golden { color: rgb(255, 199, 0); }
+.cp-buttercup { color: rgb(255, 247, 241); }
+.cp-general { color: rgb(8, 20, 87); }
+.cp-general-light { color: rgb(227, 230, 252); }
+.cp-data { color: rgb(32, 89, 89); }
+.cp-data-light { color: rgb(64, 174, 173); }
+.cp-software { color: rgb(32, 20, 52); }
+.cp-software-light { color: rgb(210, 189, 242); }
+.cp-library { color: rgb(164, 5, 14); }
+.cp-library-light { color: rgb(249, 150, 151); }
+.cp-lake { color: rgb(0, 68, 215); }
+.cp-pond { color: rgb(113, 158, 255); }
+.cp-sky { color: rgb(230, 241, 255); }
+.cp-dew { color: rgb(245, 248, 255); }
+.cp-fog { color: rgb(230, 234, 240); }
+.cp-mist { color: rgb(230, 238, 248); }
+.cp-sunrise { color: rgb(252, 117, 126); }
+.cp-wand { color: rgb(255, 214, 216); }
+.cp-dawn { color: rgb(255, 231, 168); }
 
