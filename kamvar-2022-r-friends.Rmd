@@ -6,7 +6,7 @@ institute: "The Carpentries"
 date: "2022-07-28 14:10 EDT"
 output:
   xaringan::moon_reader:
-    css: [znk.css]
+    css: [znk.css, default]
     chakra: libs/remark-latest.min.js
     lib_dir: libs
     nature:
@@ -16,7 +16,6 @@ output:
       countIncrementalSlides: false
 ---
 
-background-color: var(--cp-wand)
 background-image: url(https://carpentries.org/assets/img/TheCarpentries.svg)
 background-size: 75%
 background-position: center
@@ -35,8 +34,7 @@ foundational data and coding skills to researchers worldwide.
 *ALT: The Carpentries Logo*
 
 ---
-
-background-color: var(--cp-wand)
+background-color: var(--cp-buttercup)
 class:center,middle
 
 .pull-left[
@@ -69,3 +67,22 @@ Strength Through Diversity
 What makes us stand out is not the fact that we use evidence-based practices in
 teaching, it's that we align all of our decisions with our core values: we put
 people first and we value all contributions.
+
+
+---
+background-image: url("img/map.svg")
+background-size: 105%
+
+---
+background-image: url("img/hex-collection.png"), url("img/blob-left.svg")
+background-size: 50%, 55%
+background-position: 10%, 5%
+
+.galaxy-brain.c-red.right[
+sandpaper  
+.c-blue.brain[engine]    
+pegboard    
+.brain.c-blue[validation]    
+varnish    
+.brain.c-blue[styling]
+]
