@@ -182,15 +182,19 @@ workshops_map <- function(wksp_data, outfile = "./plot_workshops_map.svg") {
     theme_minimal() +
     theme(
       panel.background = element_rect(fill = "#E6F1FF"),
-      panel.grid.major = element_blank()
+      plot.background = element_blank(),
+      plot.margin = unit(c(0, 0, 0, 0), "lines"),
+      panel.grid.major = element_blank(),
+      legend.position = "none",
+      axis.title = element_blank(),
+      axis.text = element_blank()
     ) +
-    theme(legend.position = "none") +
     labs(
       x = "", y = ""
     ) +
     scale_color_identity(guide = "none")
 
-  svglite::svglite(file = outfile, width = 800 / 72, height = 450 / 72)
+  svglite::svglite(file = outfile, width = 800 / 72), height = 450 / 72)
   print(map)
   dev.off()
 

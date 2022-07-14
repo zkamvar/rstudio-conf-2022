@@ -85,8 +85,8 @@ h1, h2, h3 {
   font-weight: 900;
 }
 
-.author-img img {
-  clip-path: circle();
+img {
+  max-height: 600px;
 }
 
 a {
