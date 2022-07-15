@@ -9,14 +9,30 @@ output:
     css: [znk.css, default]
     chakra: libs/remark-latest.min.js
     lib_dir: libs
+    self_contained: true
     nature:
       ratio: '16:9'
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      slideNumberFormat: ''
+---
+background-color: var(--cp-fog)
+class: center, middle
+
+.galaxy-brain[\[acknowledgements slide\]]
+
 ---
 
-background-color: var(--cp-sky)
+background-color: var(--cp-fog)
+
+![](img/styles-view.png)
+
+---
+background-color: var(--cp-software-light)
+![](img/workbench-view.png)
+---
+background-color: var(--cp-buttercup)
 background-size: 50%
 class: center, middle
 .pull-left[
@@ -60,7 +76,7 @@ foundational data and coding skills to researchers worldwide.
 
 ---
 
-background-color: var(--cp-buttercup)
+background-color: var(--cp-general-light)
 class: center, middle
 
 ![](img/community.jpg)
@@ -74,10 +90,17 @@ foundational data and coding skills to researchers worldwide.
 *ALT: The Carpentries Logo*
 
 ---
-background-color: var(--cp-buttercup)
+background-color: var(--cp-general-light)
 class:center,middle
 
 .pull-left[
+.large-brain[.c-blue[&emsp;**We are...**]]    
+.brain[
+Always Learning    
+.c-red[**Inclusive of All**]    
+]]
+
+.pull-right[
 .large-brain[.c-blue[&emsp;**We...**]]  
 .brain[
   Act Openly     
@@ -86,12 +109,6 @@ class:center,middle
 ]
 ]
 
-.pull-right[
-.large-brain[.c-blue[&emsp;**We are...**]]    
-.brain[
-Always Learning    
-.c-red[**Inclusive of All**]    
-]]
 
 .center[
 .large-brain[.c-blue[&emsp;**We champion...**]]   
@@ -129,7 +146,42 @@ class: center, middle
 ---
 class: inverse, center, middle
 
-# Jekyll
+.galaxy-brain.cp-wand[Jekyll]
+
+---
+class: inverse, center, middle
+
+.galaxy-brain[
+If you have ever    
+used Jekyll...
+
+.cp-golden[Clap Twice]
+]
+
+---
+class: inverse, center, middle
+
+.galaxy-brain[
+If you have ever     
+.cp-pond[uttered a curse word]    
+while using Jekyll...
+
+
+.cp-golden[Clap Twice]
+]
+
+---
+class: inverse, center, middle
+
+.galaxy-brain[
+If you have ever     
+.cp-fire[wanted to set your laptop on 🔥]    
+while using Jekyll...
+
+.cp-golden[.brain[please] Clap Twice]
+]
+
+
 
 
 ---
@@ -350,7 +402,7 @@ class: center, middle
 ## Sarah Stevens
 .brain[Data Science Facilitator    UW Madison]
 .cp-fire.brain[
-> I'm really excited to be able to rely on the workbench's accessibility features.
+> I'm really excited to be able to rely on the workbench's **accessibility features**.
 ]
 ]
 

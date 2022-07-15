@@ -10,8 +10,8 @@ Current outline:
   before I start, I'm goint to tell you a little story about myself
 
 - Hook:
-  - I taught my first workshop in R several years ago, teaching how to do population
-    genetic analysis in R for plant pathologists.
+  - Back in 2014, when I was a grad student, I taught my first workshop showing
+    plant pathologists how to do population genetic analysis in R.
   - I knew a lot about popgen and plant pathology, but I knew next to nothing
     about inclusive teaching, live coding practices, or effective lesson
     development
@@ -20,14 +20,14 @@ Current outline:
   - Rebuilding the website was always a "close your eyes and hope it works"
     kinda process
   - We ran the workshop successfully at two conferences, but something was
-    missing: we had no clue whether or not our workshop participants actually
-    learned anything.
+    missing: we had no clue what our workshop participants actually learned from
+    it.
   - Here's the thing, my advisor had not taught for several years befor this,
     If I had a way to get support I needed, such as a template for a lesson that
     would guide me in narrative elements and formative assessment, I could have
     succeeded in understanding what people learned from the workshop.
     I know now that the carpentries is a community that provides that support
-    and gives people a safe space to improve their teaching.
+    and gives people a safe space to grow and improve their teaching.
 
 - The Carpentries
   - Mission (who else)
