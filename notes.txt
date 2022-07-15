@@ -68,7 +68,7 @@ Current outline:
 
 - Problem Statement
   - Lessons were built with Jekyll because it was what GitHub used, so there was
-    no need for contributors to render the HTML
+    no need for contributors to render the HTML manually
   - Have you ever worked with Jekyll?
   - Have you ever uttered a curse word while using Jekyll?
   - Have you ever had a fear of updating your blog because the template you

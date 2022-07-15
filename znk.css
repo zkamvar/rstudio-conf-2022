@@ -89,9 +89,11 @@ img {
   max-height: 600px;
 }
 
-a {
-  color: var(--cp-general);
+ul {
+  line-height: 1.33em;
+  list-style-type: "\1F44D"; // thumbs up sign
 }
+
 .grey {
   color: var(--cp-general);
 }
@@ -106,6 +108,10 @@ a {
   padding: 7px;
   border: 1px solid #000;
   text-align: center;
+}
+a {
+  color: inherit;
+  text-decoration: underline dotted;
 }
 
 .c-blue {
@@ -125,28 +131,24 @@ a {
 }
 
 .smol-brain {
+  font-family: "Lato";
   font-size: 24px;
 }
 
 .brain {
+  font-family: "Lato";
   font-size: 36px;
 }
 
-.brain a {
-  color: var(--cp-black);
-}
 
 .large-brain {
   font-family: "Lato";
-  font-weight: 900;
   font-size: 48px;
 }
 
-.large-brain a {
-  color: var(--cp-black);
-}
 
 .galaxy-brain {
+  font-family: "Lato";
   font-size: 64px;
 }
 

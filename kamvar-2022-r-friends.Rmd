@@ -17,7 +17,7 @@ output:
       countIncrementalSlides: false
       slideNumberFormat: ''
 ---
-background-color: var(--cp-fog)
+background-color: var(--cp-buttercup)
 class: center, middle
 
 .galaxy-brain[\[acknowledgements slide\]]
@@ -139,9 +139,10 @@ class: center, middle
 
 ---
 background-color: var(--cp-buttercup)
+background-image: url("img/styles-github.png")
+background-size: 100%
 class: center, middle
 
-# Open Source Materials
 
 ---
 class: inverse, center, middle
@@ -243,7 +244,7 @@ empower one another
 background-color: var(--cp-sky)
 class: center
 
-# core values driven design
+# Core Values Driven Design
 
 .large-brain.cp-midnight.left[
 
@@ -284,7 +285,7 @@ positive and negative openness: https://third-bit.com/2019/05/11/positive-and-ne
 background-color: var(--cp-sky)
 class: center
 
-# core values driven design
+# Core Values Driven Design
 
 .large-brain.cp-midnight.left[
 
@@ -303,13 +304,26 @@ background-color: var(--cp-buttercup)
 class: center
 
 # Champion Community Collaboration
+.left.galaxy-brain[
+- Instructor Notes
+- renv lockfiles (single source of truth)
+- pull-request previews
+]
+
+---
+background-color: var(--cp-buttercup)
+class: center
+
+# Champion Community Collaboration
+
+![](img/instructor-note.png)
 
 
 ---
 background-color: var(--cp-sky)
 class: center
 
-# core values driven design
+# Core Values Driven Design
 
 .large-brain.cp-midnight.left[
 
@@ -327,13 +341,20 @@ background-color: var(--cp-buttercup)
 class: center
 
 # Always Learning and Inclusive of All
+.left.brain[
+## People
+- Accessibility reminders
+- Multiple entry points
 
-
+## Resources
+- Elephant in the room
+- modular design allows us to modify on the fly
+]
 ---
 background-color: var(--cp-sky)
 class: center
 
-# core values driven design
+# Core Values Driven Design
 
 .large-brain.cp-midnight.left[
 
@@ -346,6 +367,18 @@ always learning & access for all
 .cp-lake.galaxy-brain[empower one another]
 ]
 
+
+---
+background-color: var(--cp-buttercup)
+class: center,middle
+
+# Community Lessons
+
+.left.brain[
+- find collaborators
+- path to peer review
+- model for curriculum maintenance
+]
 
 
 ---
@@ -416,7 +449,7 @@ class: center, middle
 
 .pull-right[
 ## Fraçois Michonneau
-.brain[Best Boss Ever]
+.brain[Best Manager Ever]
 .cp-fire.brain[
 > You only have to focus on writing the content and **The Workbench takes care of the rest**.
 ]
@@ -424,10 +457,29 @@ class: center, middle
 
 ---
 background-color: var(--cp-buttercup)
-class: center
-
-# Get Involved!
+class: middle, center
 
 
+.large-brain[
+Get Started!
+
+[.cp-lake[carpentries]/.cp-fire[workbench-template-rmd]](https://github.com/carpentries/workbench-template-rmd)
+]
+---
+background-color: var(--cp-general-light)
+class: center, middle
+
+.galaxy-brain.cp-red[Get Involved!]
+
+---
+background-color: var(--cp-general-light)
+class: center, middle
+
+.left.large-brain.cp-midnight[
+- [Become .cp-fire[an Instructor]](https://carpentries.org/become-instructor/)
+- [Become .cp-fire[a Maintainer]](training opens next year)
+- Teach, create, contribute to, or review a lesson!
+- Make your institution a [.cp-fire[Member Organisation]](https://carpentries.org/membership/)
+]
 
 
