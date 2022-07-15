@@ -102,11 +102,10 @@ ul {
 }
 
 .credit {
-  color: (--cp-black);
+  color: var(--cp-black);
   display: inline-block;
-  background-color: (--cp-buttercup);
+  background-color: var(--cp-dew);
   padding: 7px;
-  border: 1px solid #000;
   text-align: center;
 }
 a {

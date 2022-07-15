@@ -36,13 +36,14 @@ background-color: var(--cp-buttercup)
 background-size: 50%
 class: center, middle
 .pull-left[
-![](img/bb-zhi.jpg)
+![A selfie in a conference center hallway from the chest up of Zhian Kamvar with shaggy dark brown hair, thick black-rimmed oval glasses, a blue button down shirt, and a black bow tie with random white lines traversing it. He is wearing a green conference lanyard and a strap of a soulder bag with a button on it is also visible. His face shows youthful exhuberance as he smiles into the camera and holds up one hand much like agent Dale Cooper would do on the TV series 'Twin Peaks'](img/bb-zhi.jpg)
 ]
 
 --
 
 .pull-right[
-![](img/popgen.jpeg)
+![A partially-illuminated workshop classroom from the back of the room. In the foreground are several people sitting at desks with laptops open, all showing the same RStudio window. There are coffee cups on the tables. In the background, Zhian Kamvar is wearing a bright blue polo shirt and checkered shorts as he reaches up and points to a twiggy-looking diagram (minimum spanning tree) displayed on the projector screen.](img/popgen.jpeg)
+.credit[Photo by Sydney Everhart]
 ]
 ---
 
@@ -79,8 +80,9 @@ foundational data and coding skills to researchers worldwide.
 background-color: var(--cp-general-light)
 class: center, middle
 
-![](img/community.jpg)
-
+![Carpentries group shot of > 50 people modelling the carpentries logo
+by raising their arms and tilting 45 degrees to the left](img/community.jpg)
+.credit[**photo credit: Bérénice Batut**]
 
 ???
 
@@ -148,6 +150,8 @@ class: center, middle
 class: inverse, center, middle
 
 .galaxy-brain.cp-wand[Jekyll]
+
+.brain.cp-dawn[The Static Site Generator]
 
 ---
 class: inverse, center, middle
@@ -392,7 +396,8 @@ class: center, middle
 
 .pull-right[
 ## Saba Ferdous
-.brain[Associate Lecturer, UCL;]
+.brain[Associate Lecturer, UCL]
+<br>
 .brain[Learn To Discover]
 .cp-fire.brain[
 > It was **very trivial and efficient** to \[write custom lessons\] in The Carpentries Workbench
@@ -428,7 +433,8 @@ class: center, middle
 
 .pull-right[
 ## Sarah Stevens
-.brain[Data Science Facilitator    UW Madison]
+.brain[Data Science Facilitator    
+UW Madison]
 .cp-fire.brain[
 > I'm really excited to be able to rely on the workbench's **accessibility features**.
 ]
