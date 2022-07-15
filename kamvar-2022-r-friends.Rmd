@@ -301,14 +301,9 @@ empower one another
 
 ---
 background-color: var(--cp-buttercup)
-class: center
+class: middle
 
-# Champion Community Collaboration
-.left.galaxy-brain[
-- Instructor Notes
-- renv lockfiles (single source of truth)
-- pull-request previews
-]
+# Champion .cp-fire[Community Collaboration]
 
 ---
 background-color: var(--cp-buttercup)
