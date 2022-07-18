@@ -22,22 +22,48 @@ class: center, middle
 
 .galaxy-brain[\[acknowledgements slide\]]
 
+???
+
+There are a lot of people and funding institutions that I need to thank
+for supporting this work, and that can be a talk in and of itself. 
+But today, I'm going to tell you two things:
+how you can use The Carpentries Workbench to build accessible lessons,
+and how we used R to build the Workbench, which allowed us to transform
+our lessons from looking like this
+
 ---
 
 background-color: var(--cp-fog)
+class: middle,center
 
-![](img/styles-view.png)
+![screenshot of the "Exploring Data Frames" episode from the "R for Reproducible Scientific Analysis" lesson from the Jekyll template. The website has a greenish-yellow "overview" block just below the header](img/styles-view.png)
+
+???
+
+
+To looking like this
 
 ---
 background-color: var(--cp-software-light)
-![](img/workbench-view.png)
+class: middle,center
+
+![screenshot of the "Exploring Data Frames" episode form the "R for Reproducible Scientific Analysis" lesson from the Workbench template. This has a more modern look. There is a progress bar visible with 27% progress and a grey sidebar that lists the episodes in the lesson.](img/workbench-view.png)
+
+
+???
+
+And in order to tell that story, you need to know who The Carpentries are
+and before I get to that, I'm going to tell you a little story about myself.
+
 ---
 background-color: var(--cp-buttercup)
 background-size: 50%
 class: center, middle
 .pull-left[
-![A selfie in a conference center hallway from the chest up of Zhian Kamvar with shaggy dark brown hair, thick black-rimmed oval glasses, a blue button down shirt, and a black bow tie with random white lines traversing it. He is wearing a green conference lanyard and a strap of a soulder bag with a button on it is also visible. His face shows youthful exhuberance as he smiles into the camera and holds up one hand much like agent Dale Cooper would do on the TV series 'Twin Peaks'](img/bb-zhi.jpg)
+![A selfie in a conference center hallway from the chest up of Zhian Kamvar with shaggy dark brown hair, thick black-rimmed oval glasses, a blue button down shirt, and a black bow tie with random white lines traversing it. 
+He is wearing a green conference lanyard and a strap of a soulder bag with a button on it is also visible. His face shows youthful exhuberance as he smiles into the camera and holds up one hand much like agent Dale Cooper would do on the TV series 'Twin Peaks'](img/bb-zhi.jpg)
 ]
+
 
 --
 
@@ -45,6 +71,28 @@ class: center, middle
 ![A partially-illuminated workshop classroom from the back of the room. In the foreground are several people sitting at desks with laptops open, all showing the same RStudio window. There are coffee cups on the tables. In the background, Zhian Kamvar is wearing a bright blue polo shirt and checkered shorts as he reaches up and points to a twiggy-looking diagram (minimum spanning tree) displayed on the projector screen.](img/popgen.jpeg)
 .credit[Photo by Sydney Everhart]
 ]
+
+??? 
+
+Back in 2014, when I was a grad student, I wrote and ran my first workshop
+teaching plant pathologists how to do population genetics in R (if you are
+unfamiliar with population genetics in plant pathology, thing 23 and me, 
+but for mold).
+I knew a lot about population genetics and plant pathology, but I knew next to nothing about evidence-based teaching practices, live coding, or formative assessment. 
+For this workshop, I wrote everything in R markdown, forced my collaborators to use Git, and fixed a lot of merge conflicts.
+We ran the workshop successfully for a couple of conferences and lots of 
+people liked it, but there were two things that were bothering me:
+1. I was the only one who had the right setup on my computer to build the
+   workshop website 
+2. I had no clue what our audience actually learned from the workshop
+
+Here's the thing, my advisor had not taught for several years before this, If I
+had a way to get support I needed, such as a template for a lesson that would
+guide me in narrative elements and formative assessment, I could have succeeded
+in understanding what people learned from the workshop. I know now that the
+carpentries is a community that provides that support and gives people a safe
+space to grow and improve their teaching.
+
 ---
 
 background-color: var(--cp-general-light)
@@ -70,8 +118,11 @@ options(htmltools.dir.version = FALSE)
 
 ???
 
-The Carpentries is a global organization of volunteers who teach
-foundational data and coding skills to researchers worldwide. 
+The Carpentries is a global organization whose mission is to bring
+foundational data and coding skills to researchers worldwide, thus democratizing
+access to data. 
+
+We do this by building and fostering communities of practice
 
 *ALT: The Carpentries Logo*
 
@@ -86,10 +137,11 @@ by raising their arms and tilting 45 degrees to the left](img/community.jpg)
 
 ???
 
-The Carpentries is a global organization of volunteers who teach
-foundational data and coding skills to researchers worldwide. 
+The Carpentries community is made up of volunteers who are trained in and
+dedicated to evidence-based teaching practices. This includes not only
+instructors, but instructor trainers, and lesson maintainers as well. We may all
+come from different backgrounds, but we come together through our core values
 
-*ALT: The Carpentries Logo*
 
 ---
 background-color: var(--cp-general-light)
@@ -133,11 +185,25 @@ background-color: var(--cp-buttercup)
 background-image: url("img/map.svg")
 background-size: 100%
 
+???
+
+Since 2012 and as of the end of 2021, we have run 3,000 workshops in 64 countries and trained 3,419 volunteer instructors to deliver our 45 collaboratively developed, open lessons to 74,000 novice learners at our 92 member sites.
+
+This is all achieved because, when we teach workshops, we never teach alone.
+
 ---
 background-color: var(--cp-buttercup)
 class: center, middle
 
 # Never Teach Alone
+
+When you teach a workshop for the first time, there is always at least one other
+instructor who has taught this workshop before who can give you support. And
+there are ALWAYS workshops that you can teach thanks to the efforts of the (soon
+to be) Dr. SherAaron Hurt, our Director of Workshops. 
+
+And all of these workshops are possible thanks to our open-source and open-licened
+lessons that we host on GitHub
 
 ---
 background-color: var(--cp-buttercup)
@@ -145,6 +211,16 @@ background-image: url("img/styles-github.png")
 background-size: 100%
 class: center, middle
 
+This is the central hub where instructors can give lesson maintainers feedback
+that improves our curriculum. And it is these lessons that I want to focus the
+rest of my talk because, over the years, we have noticed that our core values
+have not been well-reflected in our lesson infrastructure. 
+
+Back when I was a grad student, The lessons of Software Carpentry and Data
+Carpentry were built similar to how I built my own workshop lesson: rendering
+the HTML from markdown manually on personal computers and then pushing to
+GitHub. To overcome this barrier, we moved the infrastructure to use Jekyll, the
+static site generator.
 
 ---
 class: inverse, center, middle
@@ -152,6 +228,13 @@ class: inverse, center, middle
 .galaxy-brain.cp-wand[Jekyll]
 
 .brain.cp-dawn[The Static Site Generator]
+
+???
+
+This gave us the advantage of being able to have people write markdown without
+having to worry about rendering HTML. And I want to pause here and do a bit of
+audience participation. I'm going to ask you some questions, and if the answer
+is "yes", clap twice. Okay? Ready?
 
 ---
 class: inverse, center, middle
@@ -186,7 +269,14 @@ while using Jekyll...
 .cp-golden[.brain[please] Clap Twice]
 ]
 
+???
 
+Over the last few years, we began to notice that our infrastructure was still
+serving as a barrier. People were intimidated by the folder structure and the
+toolchain used to build the lessons. In short, it was not easy to use.
+
+In 2020, I was hired to re-imagine the lesson infrastructure from the ground up
+and created The Carpentries Workbench 
 
 
 ---
@@ -202,12 +292,22 @@ Carpentries
 Workbench
 ]
 
+???
+
+Based on the design of the {pkgdown} package, it consists of three R packages
+that provide control, validation, and styling for lessons based on carpentries
+principles.
+
 ---
 background-color: var(--cp-sky)
 background-image: url("img/sandpaper.png")
 background-size: 45%
 class: middle
 
+???
+
+Sandpaper is the package that you work with directly to build your lesson website
+from markdown or RMarkdown.
 
 ---
 background-color: var(--cp-dawn)
@@ -215,6 +315,10 @@ background-image: url("img/pegboard.png")
 background-size: 45%
 class: middle
 
+???
+
+Pegboard is running in the backend and provides pre-flight validation for your
+lesson to ensure all of the markdown components make sense. 
 
 ---
 background-color: var(--cp-wand)
@@ -222,6 +326,13 @@ background-image: url("img/varnish.png")
 background-size: 45%
 class: middle
 
+???
+
+Varnish comes in at the end and provides HTML, CSS, and JavaScript styling for
+the website, and if you don't like it, you can create your own package. 
+
+In our re-imaginging of the infrastructure, we utilized what I like to call
+core-values driven design
 
 ---
 background-color: var(--cp-sky)
@@ -234,15 +345,16 @@ class: center
 people first
 
 
-community collaboration
-
-
 always learning & access for all
 
 
 empower one another
 ]
 
+???
+
+We used our core values to inform how we would redesign the infrastructure so
+that it best served our community, and I'm going to highlight a few here. 
 
 ---
 background-color: var(--cp-sky)
@@ -255,14 +367,15 @@ class: center
 .cp-lake.galaxy-brain[people first]
 
 
-community collaboration
-
-
 always learning & access for all
 
 
 empower one another
 ]
+
+???
+
+Starting with people first
 
 ---
 background-color: var(--cp-buttercup)
@@ -270,11 +383,19 @@ class: middle
 
 # Champion .cp-fire[People First]
 
+??? 
+
+We believe that the individuals who make up our community are the most important part of our organisation and our strongest resource.
+
+When I was searching for a generator for our lessons, I looked for candidates
+that would have plenty of onramps for beginners and ended up with R because of
+its community, which is highlighted in this tweet from Yanina Bellini last May:
 
 ---
 background-color: var(--cp-buttercup)
 class: center, middle
 
+# Champion People First
 
 [![
 Tweet from @yabellini with 97 likes on May 8, 2022 that reads, "Some people laugh when I
@@ -285,6 +406,31 @@ This tweet quotes a tweet from @gvwilson that links to his post about
 positive and negative openness: https://third-bit.com/2019/05/11/positive-and-negative-openness/
 ](img/r-community-tweet.png)](https://twitter.com/yabellini/status/1523268802653212672)
 
+???
+
+R is just chock-full of welcoming communities, which you all probably have felt
+at this very conference and it only makes sense that we would want to support a
+language that has a supportive community. 
+
+---
+background-color: var(--cp-buttercup)
+class: center
+
+# Champion People First
+
+![screen shot of lesson web page that contains an in-line instructor note that is grey with a magenta square with a pencil icon to the left of the heading. The note reads "While working with the example for mutate(), it is difficult to see the "weight" columns on a zoomed in RStudio screen. (in bold) Including a select() command to select the columns "weight_kg" and "weight_lb" makes it easier to view how the "weight" columns are changed.](img/instructor-note.png)
+
+???
+
+Thinking about the lesson contents themselves, another way we have championed
+people first is to virtually increase the number of instructors you teach with
+by incorporating in-line instructor notes into the lessons. This way, the impact
+of an experienced instructors teaching can have a clear throughline to those
+teaching the lesson for the first time. 
+
+And this also highlights ways that we are always learning and champion access
+for all. 
+
 ---
 background-color: var(--cp-sky)
 class: center
@@ -294,41 +440,6 @@ class: center
 .large-brain.cp-midnight.left[
 
 people first
-
-.cp-lake.galaxy-brain[community collaboration]
-
-always learning & access for all
-
-empower one another
-]
-
-
----
-background-color: var(--cp-buttercup)
-class: middle
-
-# Champion .cp-fire[Community Collaboration]
-
----
-background-color: var(--cp-buttercup)
-class: center
-
-# Champion Community Collaboration
-
-![](img/instructor-note.png)
-
-
----
-background-color: var(--cp-sky)
-class: center
-
-# Core Values Driven Design
-
-.large-brain.cp-midnight.left[
-
-people first
-
-community collaboration
 
 .cp-lake.galaxy-brain[always learning & access for all]
 
@@ -349,6 +460,18 @@ class: center
 - Elephant in the room
 - modular design allows us to modify on the fly
 ]
+
+???
+
+When folks are working on lessons, they are volunteering their time and may not
+always remember to include alternative text for images or provide descriptive
+links. The validation by {pegboard} provides helpful reminders in the console
+and on GitHub of places where these elements can be improved. 
+
+Moreover, we have build the workbench to be agnostic to where you work, so you
+can build it anywhere you can run R, which means that you can use RStudio, VSCode,
+Vim, or even RStudio cloud if you don't have your own computer
+
 ---
 background-color: var(--cp-sky)
 class: center
