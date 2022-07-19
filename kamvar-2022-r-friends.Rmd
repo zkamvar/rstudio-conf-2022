@@ -364,12 +364,12 @@ background-image: url("img/sandpaper.png")
 background-size: 45%
 class: bottom
 
-.visually-hidden[
-Image: The sandpaper isomorphic hex sticker which features a tiny workshop
+<img class='visually-hidden'
+alt='The sandpaper isomorphic hex sticker which features a tiny workshop
 containing an in-process carpentries logo being sanded with different grits of
 sandpaper. In the workshop we see a red tool cabinet, a window, a table, 
-and boards. There is a lonely little pile of sawdust in the corner.
-]
+and boards. There is a lonely little pile of sawdust in the corner.'
+>
 .bottom.credit[**hex design: Omar Khan**]
 
 ???
@@ -383,11 +383,10 @@ background-image: url("img/pegboard.png")
 background-size: 45%
 class: bottom
 
-.visually-hidden[
-Image: The pegboard isomorphic hex sticker which features a tiny workshop
+<img class='visually-hidden'
+alt='The pegboard isomorphic hex sticker which features a tiny workshop
 containing a blueprint for the carpentries logo on a table. In the workshop we
-also see a pegboard, a red tool cabinet, a window, and boards. 
-]
+also see a pegboard, a red tool cabinet, a window, and boards.'>
 .bottom.credit[**hex design: Omar Khan**]
 
 ???
@@ -406,7 +405,6 @@ alt="The varnish isomorphic hex sticker which features a tiny workshop
 containing a varnished carpentries logo with a paintbrush and different cans of
 varnish on the floor next to it. In the workshop we see a red tool cabinet, 
 a window, a table with cans of varnish, and boards.">
-
 .bottom.credit[**hex design: Omar Khan**]
 
 ???
