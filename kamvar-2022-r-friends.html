@@ -93,16 +93,16 @@ I knew a lot about population genetics and plant pathology, but I knew next to n
 For this workshop, I wrote everything in R markdown, forced my collaborators to use Git, and fixed a lot of merge conflicts.
 We ran the workshop successfully for a couple of conferences and lots of 
 people liked it, but there were two things that were bothering me:
-1. I was the only one who had the right setup on my computer to build the
-   workshop website 
+1. The build process was a kind of "close your eyes and hope it works" kind of
+   procedure.
 2. I had no clue what our audience actually learned from the workshop
 
-Here's the thing, my advisor had not taught for several years before this, If I
-had a way to get support I needed, such as a template for a lesson that would
-guide me in narrative elements and formative assessment, I could have succeeded
-in understanding what people learned from the workshop. I know now that the
-carpentries is a community that provides that support and gives people a safe
-space to grow and improve their teaching.
+Here's the thing, my advisor was a government scientist and had not taught for
+several years before this, If I had a way to get support I needed, such as a
+template for a lesson that would guide me in narrative elements and formative
+assessment, I could have succeeded in understanding what people learned from the
+workshop. I know now that the carpentries is a community that provides that
+support and gives people a safe space to grow and improve their teaching.
 
 ---
 
@@ -124,12 +124,10 @@ to researchers around the globe**
 ]
 
 
-
 ???
 
-The Carpentries is a global organization whose mission is to bring
-foundational data and coding skills to researchers worldwide, thus democratizing
-access to data. 
+The Carpentries is a global organization whose mission is to spread data science
+skills to researchers around the globe, thus democratizing access to data.
 
 We do this by building and fostering communities of practice
 
@@ -155,14 +153,16 @@ background-color: var(--cp-general-light)
 class:center,middle
 
 .pull-left[
-.large-brain[.c-blue[&amp;emsp;**We are...**]]    
+.large-brain.cp-midnight[.cp-lake.brain[(Motivation)]&lt;br&gt;&amp;emsp;**We are...**]    
 .brain[
 Always Learning    
 .c-red[**Inclusive of All**]    
 ]]
 
+--
+
 .pull-right[
-.large-brain[.c-blue[&amp;emsp;**We...**]]  
+.large-brain[.c-blue[.cp-lake.brain[(Practice)]&lt;br&gt;&amp;emsp;**We...**]]  
 .brain[
   Act Openly     
   Empower One Another    
@@ -170,9 +170,10 @@ Always Learning
 ]
 ]
 
+--
 
 .center[
-.large-brain[.c-blue[&amp;emsp;**We champion...**]]   
+.large-brain[.c-blue[.cp-lake.brain[(Goals)]&lt;br&gt;&amp;emsp;**We champion...**]]   
 .brain[
 .c-red[**People First**]    
 Access for All    
@@ -182,13 +183,11 @@ Strength Through Diversity
 
 ???
 
-What makes us stand out is not the fact that we use evidence-based practices in
-teaching, it's that we align all of our decisions with our core values: we put
-people first and we value all contributions.
-
+And for the last decade, we have shown that by acting on these values, we can
+achieve so much. 
 
 ---
-background-color: var(--cp-buttercup)
+background-color: var(--cp-general-light)
 background-image: url("img/map.svg")
 background-size: 100%
 
@@ -207,7 +206,7 @@ Since 2012 and as of the end of 2021, we have run 3,000 workshops in 64 countrie
 This is all achieved because, when we teach workshops, we never teach alone.
 
 ---
-background-color: var(--cp-buttercup)
+background-color: var(--cp-general-light)
 class: center, middle
 
 ![Action figures in a workshop with a lead instructor on the left standing at a podium with The Carpentries logo and a laptop, gesturing to her computer scren projected behind her. There are four learners and two helpers in the audience who all have varying races, abilities, and ages.](img/never-teach-alone.jpeg)&lt;br&gt;
@@ -224,7 +223,7 @@ And all of these workshops are possible thanks to our open-source and open-licen
 lessons that we host on GitHub
 
 ---
-background-color: var(--cp-buttercup)
+background-color: var(--cp-general-light)
 background-image: url("img/styles-github.png")
 background-size: 100%
 class: center, middle
@@ -237,10 +236,10 @@ SWCarpentry organisation. It shows 2,585 commits, 249 stars, and 708 forks.
 
 ???
 
-This is the central hub where instructors can give lesson maintainers feedback
-that improves our curriculum. And it is these lessons that I want to focus the
-rest of my talk because, over the years, we have noticed that our core values
-have not been well-reflected in our lesson infrastructure. 
+This where instructors can give lesson maintainers feedback that improves our
+curriculum. And it is these lessons that I want to focus the rest of my talk
+because, over the years, we have noticed that our core values have not been
+well-reflected in our lesson infrastructure.
 
 Back when I was a grad student, The lessons of Software Carpentry and Data
 Carpentry were built similar to how I built my own workshop lesson: rendering
@@ -371,12 +370,12 @@ background-image: url("img/varnish.png")
 background-size: 45%
 class: bottom
 
-.visually-hidden[
-Image: The varnish isomorphic hex sticker which features a tiny workshop
+&lt;img class='visually-hidden' 
+alt="The varnish isomorphic hex sticker which features a tiny workshop
 containing a varnished carpentries logo with a paintbrush and different cans of
 varnish on the floor next to it. In the workshop we see a red tool cabinet, 
-a window, a table with cans of varnish, and boards.
-]
+a window, a table with cans of varnish, and boards."&gt;
+
 .bottom.credit[**hex design: Omar Khan**]
 
 ???
