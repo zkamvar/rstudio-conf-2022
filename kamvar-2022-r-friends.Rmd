@@ -6,6 +6,7 @@ institute: "The Carpentries"
 date: "2022-07-28 14:10 EDT"
 output:
   xaringan::moon_reader:
+    seal: false
     css: [znk.css, default]
     chakra: libs/remark-latest.min.js
     lib_dir: libs
@@ -17,19 +18,24 @@ output:
       countIncrementalSlides: false
       slideNumberFormat: ''
 ---
-background-color: var(--cp-buttercup)
-class: center, middle
 
-.galaxy-brain[\[acknowledgements slide\]]
+class: title-slide, inverse, center, middle
+
+.title[# Building Accessible Lessons <br> .cp-pond[with R and Friends]]
+.brain.author[
+Zhian N. Kamvar .cp-wand[(he/him)]  <br> Lesson Infrastructure at [The Carpentries](https://carpentries.org/)<br>.smol-brain[2022-07-28 14:10 EDT]
+]
+.brain.institute[
+
+Slides: .cp-dawn[https://bit.ly/BALWRAF]<br> Twitter: .cp-dawn[[@zkamvar](https://twitter.com/zkamvar)]<br>GitHub: .cp-dawn[[zkamvar](https://twitter.com/zkamvar)]<br><br>
+]
 
 ???
 
-There are a lot of people and funding institutions that I need to thank
-for supporting this work, and that can be a talk in and of itself. 
-But today, I'm going to tell you two things:
-how you can use The Carpentries Workbench to build accessible lessons,
-and how we used R to build the Workbench, which allowed us to transform
-our lessons from looking like this
+Hello, I'm Zhian Kamvar and I work on Lesson Infrastructure at The Carpentries.
+I'm going to tell you two things: how you can use The Carpentries
+Workbench to build accessible lessons, and how we used R to build the Workbench,
+which allowed us to transform our lessons from looking like this
 
 ---
 
@@ -52,32 +58,44 @@ class: middle,center
 
 ???
 
-And in order to tell that story, you need to know who The Carpentries are
+---
+background-color: var(--cp-buttercup)
+class: center, middle
+
+.galaxy-brain[\[acknowledgements slide\]]
+
+???
+
+There are a lot of people and funding institutions that I need to thank
+for supporting this work, and that can be a talk in and of itself. 
+
+And in order for me to give this talk, you need to know who The Carpentries are
 and before I get to that, I'm going to tell you a little story about myself.
 
 ---
 background-color: var(--cp-buttercup)
-background-size: 50%
-class: center, middle
+class: center,middle
+
 .pull-left[
 ![A selfie in a conference center hallway from the chest up of Zhian Kamvar with shaggy dark brown hair, thick black-rimmed oval glasses, a blue button down shirt, and a black bow tie with random white lines traversing it. 
-He is wearing a green conference lanyard and a strap of a soulder bag with a button on it is also visible. His face shows youthful exhuberance as he smiles into the camera and holds up one hand much like agent Dale Cooper would do on the TV series 'Twin Peaks'](img/bb-zhi.jpg)
-]
+He is wearing a green conference lanyard and a strap of a shoulder bag with a button on it is also visible. His face shows youthful exuberance as he smiles into the camera and holds up one hand much like agent Dale Cooper would do on the TV series 'Twin Peaks'](img/bb-zhi.jpg)]
 
 
---
-
-.pull-right[
-![A partially-illuminated workshop classroom from the back of the room. In the foreground are several people sitting at desks with laptops open, all showing the same RStudio window. There are coffee cups on the tables. In the background, Zhian Kamvar is wearing a bright blue polo shirt and checkered shorts as he reaches up and points to a twiggy-looking diagram (minimum spanning tree) displayed on the projector screen.](img/popgen.jpeg)
-.credit[Photo by Sydney Everhart]
-]
-
-??? 
+???
 
 Back in 2014, when I was a grad student, I wrote and ran my first workshop
 teaching plant pathologists how to do population genetics in R (if you are
 unfamiliar with population genetics in plant pathology, thing 23 and me, 
 but for mold).
+
+--
+
+.pull-right[
+![A partially-illuminated workshop classroom from the back of the room. In the foreground are several people sitting at desks with laptops open, all showing the same RStudio window. There are coffee cups on the tables. In the background, Zhian Kamvar is wearing a bright blue polo shirt and checkered shorts as he reaches up and points to a twiggy-looking diagram (minimum spanning tree) displayed on the projector screen.](img/popgen.jpeg)
+.credit[Photo by Sydney Everhart]]
+
+???
+
 I knew a lot about population genetics and plant pathology, but I knew next to nothing about evidence-based teaching practices, live coding, or formative assessment. 
 For this workshop, I wrote everything in R markdown, forced my collaborators to use Git, and fixed a lot of merge conflicts.
 We ran the workshop successfully for a couple of conferences and lots of 
@@ -185,6 +203,14 @@ background-color: var(--cp-buttercup)
 background-image: url("img/map.svg")
 background-size: 100%
 
+.visually-hidden[
+A world map with several countries shaded in progressively darker shades of blue
+representing the number of workshops taught in each country since 2012. Every
+continent on the globe has several countries in which workshops have been taught.
+The lightest shade is Antarctica, representing 1 workshop, and the darkest is
+the USA
+]
+
 ???
 
 Since 2012 and as of the end of 2021, we have run 3,000 workshops in 64 countries and trained 3,419 volunteer instructors to deliver our 45 collaboratively developed, open lessons to 74,000 novice learners at our 92 member sites.
@@ -196,6 +222,8 @@ background-color: var(--cp-buttercup)
 class: center, middle
 
 # Never Teach Alone
+
+???
 
 When you teach a workshop for the first time, there is always at least one other
 instructor who has taught this workshop before who can give you support. And
@@ -210,6 +238,8 @@ background-color: var(--cp-buttercup)
 background-image: url("img/styles-github.png")
 background-size: 100%
 class: center, middle
+
+???
 
 This is the central hub where instructors can give lesson maintainers feedback
 that improves our curriculum. And it is these lessons that I want to focus the
@@ -589,6 +619,7 @@ Get Started!
 
 [.cp-lake[carpentries]/.cp-fire[workbench-template-rmd]](https://github.com/carpentries/workbench-template-rmd)
 ]
+
 ---
 background-color: var(--cp-general-light)
 class: center, middle
