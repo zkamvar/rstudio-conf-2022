@@ -92,7 +92,7 @@ but for mold).
 
 .pull-right[
 ![A partially-illuminated workshop classroom from the back of the room. In the foreground are several people sitting at desks with laptops open, all showing the same RStudio window. There are coffee cups on the tables. In the background, Zhian Kamvar is wearing a bright blue polo shirt and checkered shorts as he reaches up and points to a twiggy-looking diagram (minimum spanning tree) displayed on the projector screen.](img/popgen.jpeg)
-.credit[Photo by Sydney Everhart]]
+.credit[**photo credit: Sydney Everhart**]]
 
 ???
 
@@ -119,6 +119,7 @@ background-size: 75%
 background-position: 50% 33%
 class: center, bottom
 
+.visually-hidden[Image: The Carpentries Logo]
 .cp-fire.brain[
 **spreading data science skills    
 to researchers around the globe**
@@ -141,8 +142,6 @@ foundational data and coding skills to researchers worldwide, thus democratizing
 access to data. 
 
 We do this by building and fostering communities of practice
-
-*ALT: The Carpentries Logo*
 
 ---
 
@@ -240,6 +239,12 @@ background-image: url("img/styles-github.png")
 background-size: 100%
 class: center, middle
 
+.visually-hidden[
+Image: Screenshot of the python-novice-inflammation GitHub repository in the
+SWCarpentry organisation. It shows 2,585 commits, 249 stars, and 708 forks. 
+]
+
+
 ???
 
 This is the central hub where instructors can give lesson maintainers feedback
@@ -323,6 +328,10 @@ Carpentries
 Workbench
 ]
 
+.visually-hidden[
+Image: three isomorphic hex stickers on over a buff-coloured blob. The three hex stickers (sandpaper, pegboard, and varnish) all look like little workshops with different stages of planning, shaping, and finishing a wooden version of the carpentries logo, which is a stylized wrench tightening a bolt that also looks like a person who is holding up their arms in a joyous cheer. 
+]
+
 ???
 
 Based on the design of the {pkgdown} package, it consists of three R packages
@@ -333,7 +342,15 @@ principles.
 background-color: var(--cp-sky)
 background-image: url("img/sandpaper.png")
 background-size: 45%
-class: middle
+class: bottom
+
+.visually-hidden[
+Image: The sandpaper isomorphic hex sticker which features a tiny workshop
+containing an in-process carpentries logo being sanded with different grits of
+sandpaper. In the workshop we see a red tool cabinet, a window, a table, 
+and boards. There is a lonely little pile of sawdust in the corner.
+]
+.bottom.credit[**hex design: Omar Khan**]
 
 ???
 
@@ -344,7 +361,14 @@ from markdown or RMarkdown.
 background-color: var(--cp-dawn)
 background-image: url("img/pegboard.png")
 background-size: 45%
-class: middle
+class: bottom
+
+.visually-hidden[
+Image: The pegboard isomorphic hex sticker which features a tiny workshop
+containing a blueprint for the carpentries logo on a table. In the workshop we
+also see a pegboard, a red tool cabinet, a window, and boards. 
+]
+.bottom.credit[**hex design: Omar Khan**]
 
 ???
 
@@ -355,7 +379,15 @@ lesson to ensure all of the markdown components make sense.
 background-color: var(--cp-wand)
 background-image: url("img/varnish.png")
 background-size: 45%
-class: middle
+class: bottom
+
+.visually-hidden[
+Image: The varnish isomorphic hex sticker which features a tiny workshop
+containing a varnished carpentries logo with a paintbrush and different cans of
+varnish on the floor next to it. In the workshop we see a red tool cabinet, 
+a window, a table with cans of varnish, and boards.
+]
+.bottom.credit[**hex design: Omar Khan**]
 
 ???
 
