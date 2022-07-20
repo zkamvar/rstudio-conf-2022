@@ -60,9 +60,74 @@ class: middle,center
 
 ---
 background-color: var(--cp-buttercup)
-class: center, middle
+class: center, middle, smol-brain
 
-.galaxy-brain[\[acknowledgements slide\]]
+.large-brain[Acknowledgements]
+
+Achintya Rao,
+Aleksandra Nenadic,
+Alison Presmanes Hill,
+Alycia Crall,
+Angela Lee,
+Athanasia Monika Mowinckel,
+Angelique Trusler,
+Christina Koch,
+Christophe Dervieux,
+Daniel Chen,
+David Pérez-Suárez,
+Dhavide Aruliah,
+Drake Asberry,
+Emily de la Mettrie,
+Eric Jankowski,
+Erin Becker,
+Eirini Zormpa,
+Ezra Herman,
+Fan Du,
+François Michonneau,
+Greg Wilson,
+Hadley Wickham,
+Heather Turner,
+Ian Flores Siaca,
+J.J. Allaire,
+James Sadler,
+Jenny Bryan,
+Joel Nitta,
+Jon Haitz Legarreta Gorroño,
+Jon Wheeler,
+Jonah Duckles,
+Juan Fung,
+Janetta Steyn,
+Jamie Jamison,
+Jennifer Stubbs,
+Karen Word,
+Kari Jordan,
+Kate Hertwick,
+Kozo Nishida,
+Liane Newton,
+Luis J. Villanueva,
+Maëlle Salmon,
+Maneesha Sane,
+Mateusz Kuzak,
+Maxim Belkin,
+Michael Culshaw-Maurer,
+Michael Joseph,
+Naupaka Zimmerman,
+Nischal Shrestha,
+Omar Khan,
+Robin Long,
+Philipp Matthias Schäfer,
+Sarah Brown,
+Sarah Stevens,
+Saranjeet Kaur,
+Shaun C. Gaynor,
+Simon Christ,
+Saba Ferdous,
+Sher! Hurt,
+Danielle Sieh,
+Toby Hodges,
+Tracy Teal,
+Vini Salazar,
+Yanina Bellini Saibene
 
 ???
 
@@ -563,9 +628,20 @@ our lessons.
 
 ---
 background-color: var(--cp-buttercup)
-class: middle, center
+class: middle
+.pull-left.middle[
+```r
+library(sandpaper)
 
+use_package_cache()
+
+manage_deps()
+```
+]
+
+.pull-right[
 ![renv package hex logo](img/renv-hex.svg)
+]
 ???
 
 The workbench uses {renv} in the background for R lessons so that they come with
@@ -627,6 +703,18 @@ pull request rendering of markdown intermediate outputs allows contributors to
 inspect R code changes before they become live.
 
 ---
+background-color: var(--cp-sky)
+class: middle
+
+.galaxy-brain[
+We Champion .cp-fire[**Access for All**]
+
+We are .cp-fire[**Always Learning**]
+]
+???
+
+
+---
 background-color: var(--cp-buttercup)
 background-image: url("img/pink-elephant.jpg")
 background-size: 110%
@@ -636,34 +724,10 @@ class: bottom
 ???
 I'm going to mention the pink elephant in the room here: we do not use quarto... yet. 
 
----
-background-color: var(--cp-buttercup)
-class: center
-
-## Access for All & Always Learning
-.left.brain[
-## People
-- Accessibility reminders
-- Multiple entry points
-
-## Resources
-- Elephant in the room
-- modular design allows us to modify on the fly
-]
-
-???
-
-When folks are working on lessons, they are volunteering their time and may not
-always remember to include alternative text for images or provide descriptive
-links. The validation by {pegboard} provides helpful reminders in the console
-and on GitHub of places where these elements can be improved. 
-
-Moreover, we have build the workbench to be agnostic to where you work, so you
-can build it anywhere you can run R, which means that you can use RStudio, VSCode,
-Vim, or even RStudio cloud if you don't have your own computer
+And while the workbench is not the fastest system in the world, I've made it modular in design so that we can leverage engines like quarto in the future. 
 
 ---
-background-color: var(--cp-buttercup)
+background-color: var(--cp-sky)
 class: middle
 
 .galaxy-brain[
