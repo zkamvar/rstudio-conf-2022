@@ -543,16 +543,27 @@ class: middle
 Finally, the workbench centers people first by avoiding "this works on my
 machine" arguments.
 
+---
+background-color: var(--cp-buttercup)
+class: middle, center
+
+![screenshot of github issue title that says "Major HTML rendering errors in multiple episodes" with the rest of the issue blurred out](img/major-errors.png)
+
+???
+
+A common situation encountered used to be be package updates causing errors in
+our lessons. 
 
 ---
 background-color: var(--cp-buttercup)
 class: middle, center
 
-![](img/renv-hex.svg)
+![renv package hex logo](img/renv-hex.svg)
 ???
 
-The workbench uses {renv} in the background for R lessons so that the lessons
-come with batteries included. Importantly, when developing a lesson, you do not need to know how to use {renv} to work with the lesson. 
+The workbench uses {renv} in the background for R lessons so that they come with
+batteries included. Importantly, when developing a lesson, you do not need to
+know how to use {renv} to work with the lesson.
 
 ---
 background-color: var(--cp-sky)
@@ -574,8 +585,7 @@ class: center, middle
 &lt;img class='visually-hidden' 
 alt="screenshot of github pull request preview showing check warnings from
 GitHub Actions that show a warning for uninformative link text (here), a 
-missing file, and another uninformative link text (this link)"
-&gt;
+missing file, and another uninformative link text (this link)"&gt;
 
 ???
 
@@ -587,12 +597,27 @@ early when they have inaccessible elements in their lessons.
 background-color: var(--cp-buttercup)
 class: center, middle
 
-![](img/pr-diff.png)
+![](img/pr-text-diff.png)
+
+
 
 ???
 
-Moreover, pull request rendering of markdown intermediate outputs allows 
-contributors to inspect R code changes before they become live.
+Moreover, pull requests are great for showing you what's changed in your lesson,
+but when you are working with R Markdown you want to be able to see the results.
+
+
+---
+background-color: var(--cp-buttercup)
+class: center, middle
+
+![](img/pr-diff.png)
+
+
+???
+
+pull request rendering of markdown intermediate outputs allows contributors to
+inspect R code changes before they become live.
 
 ---
 background-color: var(--cp-buttercup)
@@ -744,6 +769,10 @@ Now you can build your lesson with R
 .galaxy-brain[
 ...but what about .cp-lake[Friends]?
 ]
+
+???
+
+If our values inspire you, why not join our community?
 
 ---
 background-color: var(--cp-general-light)
