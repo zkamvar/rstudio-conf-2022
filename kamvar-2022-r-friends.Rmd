@@ -537,12 +537,32 @@ surveys |>
 * select(weight, weight_kg)
 ```
 .center[![](img/example-mutate-select.png)]
+
+
+---
+background-color: var(--cp-sky)
+class: middle
+
+.galaxy-brain[Champion **.cp-fire[People First]**]
+
 ???
 
-These instructor notes also highlights ways that we champion access for all and are always learning
+Finally, the workbench centers people first by avoiding "this works on my
+machine" arguments.
+
 
 ---
 background-color: var(--cp-buttercup)
+class: middle, center
+
+![](img/renv-hex.svg)
+???
+
+The workbench uses {renv} in the background for R lessons so that the lessons
+come with batteries included. Importantly, when developing a lesson, you do not need to know how to use {renv} to work with the lesson. 
+
+---
+background-color: var(--cp-sky)
 class: middle
 
 .galaxy-brain[
@@ -552,6 +572,44 @@ We are .cp-fire[**Always Learning**]
 ]
 ???
 
+---
+background-color: var(--cp-buttercup)
+background-image: url('img/warnings.png')
+class: center, middle
+
+
+<img class='visually-hidden' 
+alt="screenshot of github pull request preview showing check warnings from
+GitHub Actions that show a warning for uninformative link text (here), a 
+missing file, and another uninformative link text (this link)"
+>
+
+???
+
+With the workbench we want to make sure they set people up for success and
+{pegboard}'s pre-flight validation allows us to alert lesson contributors
+early when they have inaccessible elements in their lessons.
+
+---
+background-color: var(--cp-buttercup)
+class: center, middle
+
+![](img/pr-diff.png)
+
+???
+
+Moreover, pull request rendering of markdown intermediate outputs allows 
+contributors to inspect R code changes before they become live.
+
+---
+background-color: var(--cp-buttercup)
+background-image: url("img/pink-elephant.jpg")
+background-size: 110%
+class: bottom
+.credit[[photo credit: Chuck Coker](https://www.flickr.com/photos/caveman_92223/7087874575)]
+
+???
+I'm going to mention the pink elephant in the room here: we do not use quarto... yet. 
 
 ---
 background-color: var(--cp-buttercup)
