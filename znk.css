@@ -225,3 +225,7 @@ blockquote p {
   display: inline;
   font-style: italic;
 }
+
+.remark-code {
+  font-size: 36px;
+}

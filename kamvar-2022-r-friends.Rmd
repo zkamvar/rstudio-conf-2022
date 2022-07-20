@@ -501,15 +501,11 @@ people first is to virtually increase the number of instructors you teach with. 
 background-color: var(--cp-buttercup)
 class: middle
 
-.brain[
 ```r
 surveys |>
   mutate(weight_kg = weight / 1000)
 ```
-]
-.center[
-![](img/example-mutate.png)
-]
+.center[![](img/example-mutate.png)]
 
 ???
 
@@ -535,17 +531,12 @@ And you have a chance to change your approach
 ---
 background-color: var(--cp-buttercup)
 class: middle
-.brain[
 ```r
 surveys |> 
   mutate(weight_kg = weight / 1000) |>
-  select(weight, weight_kg)
+* select(weight, weight_kg)
 ```
-]
-
-.center[
-![](img/example-mutate-select.png)
-]
+.center[![](img/example-mutate-select.png)]
 ???
 
 These instructor notes also highlights ways that we champion access for all and are always learning
