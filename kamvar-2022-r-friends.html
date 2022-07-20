@@ -4,8 +4,8 @@
     <title>Building Accessible Lessons with R and Friends</title>
     <meta charset="utf-8" />
     <meta name="author" content="Zhian N. Kamvar (he/him)" />
-    <script src="libs/header-attrs/header-attrs.js"></script>
-    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <script src="libs/header-attrs-2.14/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link rel="stylesheet" href="znk.css" type="text/css" />
   </head>
   <body>
@@ -431,7 +431,7 @@ We used our core values to inform how we would redesign the infrastructure so
 that it best served our community, and I'm going to highlight a few here. 
 
 ---
-background-color: var(--cp-buttercup)
+background-color: var(--cp-sky)
 class: middle
 
 .galaxy-brain[Champion **.cp-fire[People First]**]
@@ -443,14 +443,12 @@ Starting with our goal to Champion People First
 We believe that the individuals who make up our community are the most important part of our organisation and our strongest resource.
 
 When I was searching for a generator for our lessons, I looked for candidates
-that would have plenty of onramps for beginners and ended up with R because of
-its community, which is highlighted in this tweet from Yanina Bellini last May:
+that would have plenty of onramps for beginners and ended up with R
 
 ---
 background-color: var(--cp-buttercup)
 class: center, middle
 
-## Champion People First
 
 [![
 Tweet from @yabellini with 97 likes on May 8, 2022 that reads, "Some people laugh when I
@@ -468,23 +466,82 @@ at this very conference and it only makes sense that we would want to support a
 language that has a supportive community. 
 
 ---
-background-color: var(--cp-buttercup)
-class: center
+background-color: var(--cp-sky)
+class: middle
 
-## Champion People First
+.galaxy-brain[Champion **.cp-fire[People First]**]
+
+???
+
+Of course, the workbench stands out in another way. 
+
+---
+background-color: var(--cp-buttercup)
+class: center,middle
+
+.brain[`lesson-website.url/episode`]
+
+![screen shot of lesson web page that contains a section of a lesson called "Mutate" which instructs learners how to use the `mutate()` function to create a new variable for weight in kilograms.](img/no-instructor-note.png)
+
+
+???
+
+Thinking about the lesson contents themselves, another way we have championed
+people first is to virtually increase the number of instructors you teach with. Sometimes, you need extra tips for working with the lessons in the context of teaching a lesson, such as this situation here. 
+
+
+---
+background-color: var(--cp-buttercup)
+class: middle
+
+.brain[
+```r
+surveys |&gt;
+  mutate(weight_kg = weight / 1000)
+```
+]
+.center[
+![](img/example-mutate.png)
+]
+
+???
+
+When you display a wide tibble on a zoomed-in RStudio screen, it's difficult to
+discern where the "weight" columns are and throws a bit of chaos into the
+teaching.
+
+But, by incorporating in-line instructor notes into the lessons, experienced
+instructors can communicate with other instructors through time. 
+
+---
+background-color: var(--cp-buttercup)
+class: center,middle
+
+.brain[`lesson-website.url/episode`.cp-lake[`/instructor`]]
 
 ![screen shot of lesson web page that contains an in-line instructor note that is grey with a magenta square with a pencil icon to the left of the heading. The note reads "While working with the example for mutate(), it is difficult to see the "weight" columns on a zoomed in RStudio screen. (in bold) Including a select() command to select the columns "weight_kg" and "weight_lb" makes it easier to view how the "weight" columns are changed.](img/instructor-note.png)
 
 ???
 
-Thinking about the lesson contents themselves, another way we have championed
-people first is to virtually increase the number of instructors you teach with
-by incorporating in-line instructor notes into the lessons. This way, the impact
-of an experienced instructors teaching can have a clear throughline to those
-teaching the lesson for the first time. 
+And you have a chance to change your approach
 
-And this also highlights ways that we are always learning and champion access
-for all. 
+---
+background-color: var(--cp-buttercup)
+class: middle
+.brain[
+```r
+surveys |&gt; 
+  mutate(weight_kg = weight / 1000) |&gt;
+  select(weight, weight_kg)
+```
+]
+
+.center[
+![](img/example-mutate-select.png)
+]
+???
+
+These instructor notes also highlights ways that we champion access for all and are always learning
 
 ---
 background-color: var(--cp-buttercup)
