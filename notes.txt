@@ -3,11 +3,17 @@ This is where I'm going to keep my notes for the talk until the talk is finished
 Current outline:
 
 - Hello, I'm Zhian Kamvar and I work on Lesson Infrastructure at The Carpentries
-- Purpose: I'm here to show you two things: how you can use our infrastructure
-  to build accessible lessons with R and friends and how we used our core
-  values to transform our lessons to a more modern and accessible format using
-  R, but in order to do that, you need to know what The Carpentries is and
-  before I start, I'm goint to tell you a little story about myself
+- Purpose: Hello, I'm Zhian Kamvar and I work on Lesson Infrastructure at The
+  Carpentries. I'm going to tell you two things: how you can use The Carpentries
+  Workbench to build accessible lessons, and how we used R to build the
+  Workbench, which allowed us to transform our lessons from looking like this
+  to looking like this.
+
+- Acknowledgements: There are a lot of people and funding institutions that I
+  need to thank for supporting this work, and that can be a talk in and of
+  itself. And in order for me to give this talk, you need to know who The
+  Carpentries are and before I get to that, I'm going to tell you a little story
+  about myself.
 
 - Hook:
   - Back in 2014, when I was a grad student, I taught my first workshop showing
@@ -89,29 +95,26 @@ Current outline:
 
 - We Champion People First
 
-  - lesson wrapped around a blog: great for one or two lessons; a nightmare for
-    > 100.
-  - People First solution:
-    - content for content; tools and styling separate
-    - Use R
-      - R's best asset is its community: https://twitter.com/yabellini/status/1523268802653212672
-    - Careful testing on a big ship
+ - We believe that the individuals who make up our community are the most
+   important part of our organisation and our strongest resource.
 
-- We Champion Community Collaboration
+ - When I was searching for a generator for our lessons, I looked for
+   candidates that would have plenty of onramps for beginners and ended up with
+   R
+   - R's best asset is its community: https://twitter.com/yabellini/status/1523268802653212672
 
  - Instructor notes inline with the content allows a broader communication
    channel for instructors to communicate with one another and to provide
    feedback to maintainers
- - renv lockfiles and pull request previews allow for inspection of results and
+ - renv lockfiles
    avoids "this works on my machine" arguments.
 
 
 - Always Learning and Inclusive of All
 
   - people have better things to do than worry about errors
-    - Reminders built in to The Workbench to include alt text and descriptive links
-    - Multiple points of entry including RStudio cloud
-    - not excluding anyone because they can not install Jekyll, Make, or Python
+    - pull request previews allow for inspection of results
+    - Reminders to include alt text and descriptive links
   - infrastructure: I'm always learning
     - Elephant in the room: we are not using quarto... yet
     - Modular design allows future integration of different tooling.

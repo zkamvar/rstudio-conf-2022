@@ -175,7 +175,7 @@ He is wearing a green conference lanyard and a strap of a shoulder bag with a bu
 
 Back in 2014, when I was a grad student, I wrote and ran my first workshop
 teaching plant pathologists how to do population genetics in R (if you are
-unfamiliar with population genetics in plant pathology, thing 23 and me, 
+unfamiliar with population genetics in plant pathology, think 23 and me, 
 but for mold).
 
 --
@@ -186,20 +186,22 @@ but for mold).
 
 ???
 
-I knew a lot about population genetics and plant pathology, but I knew next to nothing about evidence-based teaching practices, live coding, or formative assessment. 
-For this workshop, I wrote everything in R markdown, forced my collaborators to use Git, and fixed a lot of merge conflicts.
-We ran the workshop successfully for a couple of conferences and lots of 
-people liked it, but there were two things that were bothering me:
-1. The build process was a kind of "close your eyes and hope it works" kind of
-   procedure.
-2. I had no clue what our audience actually learned from the workshop
-
-Here's the thing, my advisor was a government scientist and had not taught for
-several years before this, If I had a way to get support I needed, such as a
-template for a lesson that would guide me in narrative elements and formative
-assessment, I could have succeeded in understanding what people learned from the
-workshop. I know now that the carpentries is a community that provides that
-support and gives people a safe space to grow and improve their teaching.
+  - I knew a lot about popgen and plant pathology, but I knew next to nothing
+    about inclusive teaching, live coding practices, or effective lesson
+    development
+  - Build website using RMarkdown, forced my collaborators to start using Git,
+    fixed a lot of merge conflicts
+  - Rebuilding the website was always a "close your eyes and hope it works"
+    kinda process
+  - We ran the workshop successfully at two conferences, but something was
+    missing: we had no clue _what_ our workshop participants actually learned
+    from it.
+  - Here's the thing, my advisor had not taught for several years befor this,
+    If I had a way to get support I needed, such as a template for a lesson that
+    would guide me in narrative elements and formative assessment, I could have
+    succeeded in understanding what people learned from the workshop.
+    I know now that the carpentries is a community that provides that support
+    and gives people a safe space to grow and improve their teaching.
 
 ---
 
@@ -298,7 +300,13 @@ the USA
 
 ???
 
-Since 2012 and as of the end of 2021, we have run 3,000 workshops in 64 countries and trained 3,419 volunteer instructors to deliver our 45 collaboratively developed, open lessons to 74,000 novice learners at our 92 member sites.
+Since 2012 and as of the end of 2021, we have run 
+ - 3,000 workshops in 
+ - 64 countries and trained 
+ - 3,419 volunteer instructors to deliver our 
+ - 45 collaboratively developed, open lessons to 
+ - 74,000 novice learners at our 
+ - 92 member sites.
 
 This is all achieved because, when we teach workshops, we never teach alone.
 
@@ -316,8 +324,9 @@ instructor who has taught this workshop before who can give you support. And
 there are ALWAYS workshops that you can teach thanks to the efforts of the (soon
 to be) Dr. SherAaron Hurt, our Director of Workshops. 
 
-And all of these workshops are possible thanks to our open-source and open-licened
-lessons that we host on GitHub
+
+Workshops and continued learning only possible through open-source and
+open-licensed lesson materials freely available on GitHub
 
 ---
 background-color: var(--cp-general-light)
@@ -333,30 +342,24 @@ SWCarpentry organisation. It shows 2,585 commits, 249 stars, and 708 forks.
 
 ???
 
-This where instructors can give lesson maintainers feedback that improves our
-curriculum. And it is these lessons that I want to focus the rest of my talk
+And it is these lesson materials that I want to focus the rest of my talk
 because, over the years, we have noticed that our core values have not been
 well-reflected in our lesson infrastructure.
 
-Back when I was a grad student, The lessons of Software Carpentry and Data
-Carpentry were built similar to how I built my own workshop lesson: rendering
-the HTML from markdown manually on personal computers and then pushing to
-GitHub. To overcome this barrier, we moved the infrastructure to use Jekyll, the
-static site generator.
+These lessons have a long history in how they were built, originally being
+written in pure HTML, but as it stands now, they are built using Jekyll.
 
 ---
 class: inverse, center, middle
 
 .galaxy-brain.cp-wand[Jekyll]
 
-.brain.cp-dawn[The Static Site Generator]
+.brain.cp-dawn[GitHub's Default Site Generator]
 
 ???
 
-This gave us the advantage of being able to have people write markdown without
-having to worry about rendering HTML. And I want to pause here and do a bit of
-audience participation. I'm going to ask you some questions, and if the answer
-is "yes", clap twice. Okay? Ready?
+And I want to pause here and do a bit of audience participation. I'm going to
+ask you some questions, and if the answer is "yes", clap twice. Okay? Ready?
 
 ---
 class: inverse, center, middle
@@ -444,6 +447,8 @@ Image: three isomorphic hex stickers on over a buff-coloured blob. The three hex
 
 ???
 
+It operates on a modular workflow that clearly separates source files from
+derivatives and the tools needed to build them. 
 Based on the design of the {pkgdown} package, it consists of three R packages
 that provide control, validation, and styling for lessons based on carpentries
 principles.
@@ -673,6 +678,8 @@ The workbench uses {renv} in the background for R lessons so that they come with
 batteries included. Importantly, when developing a lesson, you do not need to
 know how to use {renv} to work with the lesson.
 
+And this really ties in with the next set of core values. 
+
 ---
 background-color: var(--cp-sky)
 class: middle
@@ -683,6 +690,37 @@ We Champion .cp-fire[**Access for All**]
 We are .cp-fire[**Always Learning**]
 ]
 ???
+
+---
+background-color: var(--cp-buttercup)
+class: center, middle
+
+![](img/pr-text-diff.png)
+
+
+
+???
+
+Access for all means that you are not limited by what you can install in order
+to work with and evaluate contributions to your lesson. 
+
+Pull requests are great for showing you what's changed in your lesson,
+but when you are working with R Markdown you want to be able to see the results
+and you want to make sure there are no unexpected side-effects.
+
+
+---
+background-color: var(--cp-buttercup)
+class: center, middle
+
+![](img/pr-diff.png)
+
+
+???
+
+pull request rendering of markdown intermediate outputs allows contributors to
+inspect R code changes before they become live regardless of whether or not they
+have access to their computer. 
 
 ---
 background-color: var(--cp-buttercup)
@@ -697,35 +735,9 @@ missing file, and another uninformative link text (this link)"&gt;
 
 ???
 
-With the workbench we want to make sure they set people up for success and
+With the workbench we want to make sure to set people up for success and
 {pegboard}'s pre-flight validation allows us to alert lesson contributors
 early when they have inaccessible elements in their lessons.
-
----
-background-color: var(--cp-buttercup)
-class: center, middle
-
-![](img/pr-text-diff.png)
-
-
-
-???
-
-Moreover, pull requests are great for showing you what's changed in your lesson,
-but when you are working with R Markdown you want to be able to see the results.
-
-
----
-background-color: var(--cp-buttercup)
-class: center, middle
-
-![](img/pr-diff.png)
-
-
-???
-
-pull request rendering of markdown intermediate outputs allows contributors to
-inspect R code changes before they become live.
 
 ---
 background-color: var(--cp-sky)
