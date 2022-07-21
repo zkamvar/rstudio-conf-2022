@@ -175,9 +175,9 @@ https://bookdown.org/yihui/rmarkdown/xaringan-format.html#slides-and-properties
 }
 
 .title-slide {
-  background-image: url("img/carpentries-logo.svg");
-  background-size: 10%;
-  background-position: 5% 90%;
+  background-image: url("img/carpentries-logo.svg"), url("img/talk-qr.png");
+  background-size: 20%;
+  background-position: 5% 90%, 95% 90%;
 }
 
 
