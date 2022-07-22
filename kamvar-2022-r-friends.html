@@ -20,7 +20,9 @@ Zhian N. Kamvar .cp-wand[(he/him)]  &lt;br&gt; Lesson Infrastructure at [The Car
 ]
 .brain.institute[
 
-Slides: .cp-dawn[https://bit.ly/BALWRAF]&lt;br&gt; Twitter: .cp-dawn[[@zkamvar](https://twitter.com/zkamvar)]&lt;br&gt;GitHub: .cp-dawn[[zkamvar](https://twitter.com/zkamvar)]&lt;br&gt;&lt;br&gt;
+Info: [bit.ly/.cp-dawn[cp-workbench]](https://bit.ly/cp-workbench)&lt;br&gt;Slides: [bit.ly/.cp-dawn[BALWRAF]](https://bit.ly/BALWRAF)&lt;br&gt;Twitter: .cp-dawn[[@zkamvar](https://twitter.com/zkamvar)]&lt;br&gt;GitHub: .cp-dawn[[zkamvar](https://twitter.com/zkamvar)]&lt;br&gt;
+
+
 ]
 
 ???
@@ -145,19 +147,19 @@ Vini Salazar,
 .brain[Y]
 Yanina Bellini Saibene,
 Yihui Xie    
-![](img/rstudio-logo.svg) 
+![RStudio](img/rstudio-logo.svg) 
 &amp;nbsp;
 &amp;nbsp;
-![](img/funder-rconsortium.svg) 
+![R consortium](img/funder-rconsortium.svg) 
 &amp;nbsp;
 &amp;nbsp;
-![](img/funder-sloan.svg)
+![Alfred P. Sloan Foundation](img/funder-sloan.svg)
 &amp;nbsp;
 &amp;nbsp;
-![](img/funder-moore.svg) 
+![Gordon and Betty Moore Foundation](img/funder-moore.svg) 
 &amp;nbsp;
 &amp;nbsp;
-![](img/funder-czi.svg) 
+![Chan Zuckerberg Initiative](img/funder-czi.svg) 
 
 ???
 
@@ -305,13 +307,13 @@ the USA
 
 ???
 
-Since 2012 and as of the end of 2021, we have run 
- - 3,000 workshops in 
- - 64 countries and trained 
- - 3,419 volunteer instructors to deliver our 
+Since 2012  we have run 
+ - &gt;3,500 workshops in 
+ - &gt;60 countries and trained 
+ - &gt;3,900 volunteer instructors to deliver our 
  - 45 collaboratively developed, open lessons to 
- - 74,000 novice learners at our 
- - 92 member sites.
+ - &gt;80,000 novice learners at our 
+ - &gt;90 member sites.
 
 This is all achieved because, when we teach workshops, we never teach alone.
 
@@ -426,7 +428,7 @@ toolchain used to build the lessons. In short, it was not easy to use.
 ---
 class: inverse, middle, center
 
-![](img/screaming.gif)
+![Meme of Wendy from the animated Peter Pan smiling and slowly blinking. The Caption says "*internally screaming*"](img/screaming.gif)
 
 ???
 
@@ -437,7 +439,7 @@ In 2020, I was hired to re-imagine the lesson infrastructure from the ground up
 background-color: var(--cp-mist)
 class: middle, center
 
-![](img/flow.svg)
+![Diagram of a workflow with five nodes: the nodes on the left are of a lesson author at their laptop looking happy with an idea lightbulb illuminated. Below them is an R markdown document. The middle node says tools. The nodes on the right are a markdown document and an HTML website. Information flows from left to right.](img/flow.svg)
 ???
 
 We knew that we wanted a system to avoid having a lesson wrapped around a blog where the tools, the inputs and the outputs were kept separate.  
@@ -585,7 +587,8 @@ language that has a supportive community.
 background-color: var(--cp-sky)
 class: middle
 
-.galaxy-brain[Champion **.cp-fire[People First]**]
+.galaxy-brain[Champion **.cp-fire[People First]**]    
+.cp-black.large-brain[*instructor notes*]
 
 ???
 
@@ -614,7 +617,11 @@ class: middle
 surveys |&gt;
   mutate(weight_kg = weight / 1000)
 ```
-.center[![](img/example-mutate.png)]
+.center[
+![Zoomed-in R Studio console window showing the output of a tibble with 14 
+columns, 7 of which are not shown. The columns "weight" and "weight_kg" are
+among the columns not shown](img/example-mutate.png)
+]
 
 ???
 
@@ -645,14 +652,19 @@ surveys |&gt;
   mutate(weight_kg = weight / 1000) |&gt;
 * select(weight, weight_kg)
 ```
-.center[![](img/example-mutate-select.png)]
+.center[
+![Zoomed-in R Studio console window showing the output of a tibble with two 
+columns: "weight_kg" and "weight" showing several missing rows, but the 9th
+row shows a weight of 218 and weight_kg of 0.218](img/example-mutate-select.png)
+]
 
 
 ---
 background-color: var(--cp-sky)
 class: middle
 
-.galaxy-brain[Champion **.cp-fire[People First]**]
+.galaxy-brain[Champion **.cp-fire[People First]**]    
+.cp-black.large-brain[*automation*]
 
 ???
 
@@ -707,9 +719,14 @@ We are .cp-fire[**Always Learning**]
 
 ---
 background-color: var(--cp-buttercup)
+background-image: url("img/pr-text-diff.png")
+background-size: 100%
 class: center, middle
 
-![](img/pr-text-diff.png)
+&lt;img class='visually-hidden'
+alt='a diff on GitHub showing a pie plot being modified. The colours have been
+modified from "deepskyblue", "yellow", and "yellow3" to "royalblue4", "wheat3",
+and "wheat4"'&gt;
 
 
 
@@ -725,9 +742,11 @@ and you want to make sure there are no unexpected side-effects.
 
 ---
 background-color: var(--cp-buttercup)
+background-image: linear-gradient(rgba(255, 247, 241, 0.5), rgba(255, 247, 241, 0.5)), url("img/pr-text-diff.png")
+background-size: 100%
 class: center, middle
 
-![](img/pr-diff.png)
+![A side-by-side diff of an image on GitHub. On the left is the original image of a pie chart that looks like a pyramid with blue sky in the background. On the right is the same pie chart, but stylized to look like a pyramid at night with darker colours.](img/pr-diff.png)
 
 
 ???
@@ -739,19 +758,39 @@ have access to their computer.
 ---
 background-color: var(--cp-buttercup)
 background-image: url('img/warnings.png')
+background-size: 100%
 class: center, middle
 
 
 &lt;img class='visually-hidden' 
-alt="screenshot of github pull request preview showing check warnings from
-GitHub Actions that show a warning for uninformative link text (here), a 
-missing file, and another uninformative link text (this link)"&gt;
+alt="Screenshot of GitHub diff from a pull request showing check warnings from
+GitHub Actions. Red arrows highlight the two warnings: a warning on line 116
+showing that an image with the caption 'I &lt;3 kittens' is  missing alt-text, and
+on line 117 showing that a link has uninformative text (this link)."&gt;
 
 ???
 
 With the workbench we want to make sure to set people up for success and
 {pegboard}'s pre-flight validation allows us to alert lesson contributors
 early when they have inaccessible elements in their lessons.
+
+---
+background-color: var(--cp-buttercup)
+background-image: url('img/warning-ohno.png')
+background-size: 100%
+class: center, middle
+
+
+&lt;img class='visually-hidden' 
+alt="Same screenshot as previous image, but now a circle with my face looking at
+the warnings appears. I am clearly shocked that I forgot to include alt-text and
+descriptive links."&gt;
+
+???
+
+And this is how we acknowledge that lesson contributors are always learning. 
+Mistakes happen and there should always be clear pathways to correct them with
+no shame. 
 
 ---
 background-color: var(--cp-sky)
@@ -762,8 +801,11 @@ We Champion .cp-fire[**Access for All**]
 
 We are .cp-fire[**Always Learning**]
 ]
+
 ???
 
+And we reflect this always learning core value in our lesson infrastructure
+itself.
 
 ---
 background-color: var(--cp-buttercup)
@@ -963,8 +1005,9 @@ alt="Registration is now open for CarpentryCon 2022: Expanding Data Frontiers ha
 [https://.cp-lake[**2022.carpentrycon.org/**]](https://2022.carpentrycon.org/)
 
 &lt;hr&gt;
-
-Slides: .cp-black[https://bit.ly/BALWRAF]&lt;br&gt; Twitter: .cp-black[[@zkamvar](https://twitter.com/zkamvar)]&lt;br&gt;
+Info: [.cp-black[bit.ly/]**cp-workbench**](https://bit.ly/cp-workbench)&lt;br&gt;
+Slides: [.cp-black[bit.ly/]**BALWRAF**](https://bit.ly/BALWRAF)&lt;br&gt;
+Twitter: .cp-black[[**@zkamvar**](https://twitter.com/zkamvar)]&lt;br&gt;
 
 
     </textarea>
