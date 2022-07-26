@@ -876,9 +876,9 @@ class: center,middle
 
 ---
 background-color: var(--cp-buttercup)
-background-image: url("img/saba.png")
-background-position: 5% 50%
-background-size: 50%
+background-image: url("img/saba.jpg")
+background-position: -95% 50%
+background-size: 75%
 class: center, middle
 
 
