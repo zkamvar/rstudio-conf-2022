@@ -937,7 +937,7 @@ class: center, middle
 
 
 .pull-right[
-## Fraçois Michonneau
+## François Michonneau
 .brain[Best Manager Ever]
 .cp-fire.brain[
 > You only have to focus on writing the content and **The Workbench takes care of the rest**.
